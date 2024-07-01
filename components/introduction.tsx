@@ -66,14 +66,14 @@ const Introduction = () => {
                     
                     {/* Botón de ver proyectos */}
                     <Link 
-                      href="/projects"
+                      href="/portfolio"
                       className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50 " >
                         Ver proyectos
                     </Link>
 
                     {/* Botón de Contacta conmigo */}
                     <Link 
-                      href="/contact"
+                      href="https://w.app/NachoChiappero"
                       className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary" >
                         Contacta conmigo
                     </Link>

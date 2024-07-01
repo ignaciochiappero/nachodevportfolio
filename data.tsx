@@ -1,25 +1,25 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.instagram.com/nachochiappero/",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/ignacio-chiappero-129360228/",
     },
        {
         id: 3,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/ignaciochiappero",
     },
     {
-        id: 5,
+        id: 4,
         logo: <Facebook size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://web.facebook.com/nacho.chiappero/",
     },
 ];
 
@@ -91,8 +91,8 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 5,
+        text: "Años de experiencia docente",
         lineRight: true,
         lineRightMobile: true,
     },
