@@ -15,8 +15,8 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 //Title and description 
 export const metadata: Metadata = {
-  title: "Nacho Dev Landig Page ☯",
-  description: "Landing page made by Nacho Chiappero",
+  title: "Nacho Dev",
+  description: "Page made by Nacho Chiappero",
 };
 
 export default function RootLayout({
