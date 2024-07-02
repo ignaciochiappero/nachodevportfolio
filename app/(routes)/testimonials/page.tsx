@@ -9,10 +9,12 @@ import { dataTestimonials } from '@/data';
 import CircleImage from '@/components/circle-image';
 import AvatarPortfolio from '@/components/avatar-portfolio';
 import TransitionPage from '@/components/transition-page';
+import CoverParticles from "@/components/cover-particles";
 
 const TestimonialsPage = () => {
     return (
         <>
+            <CoverParticles/>
             <TransitionPage />
             <div className='flex flex-col justify-center h-lvh'>
                 <CircleImage />
