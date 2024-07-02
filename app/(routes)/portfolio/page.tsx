@@ -13,9 +13,12 @@ import CoverParticles from "@/components/cover-particles";
 const PortfolioPage = () => {
 
     return (
+        <>
+         <TransitionPage />
+         <CoverParticles/>
         <ContainerPage>
-            <CoverParticles/>
-            <TransitionPage />
+            
+           
             <AvatarPortfolio />
             <CircleImage />
             <div className="flex flex-col justify-center h-full">
@@ -28,6 +31,7 @@ const PortfolioPage = () => {
                 </div>
             </div>
         </ContainerPage>
+        </>
     );
 }
 
