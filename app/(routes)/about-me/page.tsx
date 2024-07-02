@@ -3,11 +3,13 @@ import TransitionPage from "@/components/transition-page";
 import Avatar from "@/components/avatar";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
+import CoverParticles from "@/components/cover-particles";
 
 
 const PageAboutMe = () => {
   return (
     <>
+        <CoverParticles/>
         <TransitionPage/>
         <ContainerPage>
           
@@ -27,3 +29,4 @@ const PageAboutMe = () => {
 }
 
 export default PageAboutMe;
+
