@@ -1,3 +1,5 @@
+
+
 import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
@@ -10,7 +12,7 @@ const ServicePage = () => {
     <>
       <TransitionPage />
       <CircleImage />
-      <AvatarServices/>
+      
       <CoverParticles/>
 
       <div className="
