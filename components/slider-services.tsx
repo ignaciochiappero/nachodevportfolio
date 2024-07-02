@@ -14,10 +14,10 @@ const SliderServices = () => {
                     spaceBetween: 15
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 15
                 },
-                1024: {
+                1000: {
                     slidesPerView: 3,
                     spaceBetween: 15
                 }
@@ -34,7 +34,11 @@ const SliderServices = () => {
 
                 //Marco deslizable
                 <SwiperSlide key={index} >
-                    <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
+                    <div className="
+                    sm:flex-col
+                    sm:gap-x-0
+
+                    flex px-6 py-6 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] gap-x-6  group hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 hover:border-secondary border-2">
                         <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
                         <div>
                             <h3 className="mb-4 text-lg">{item.title}</h3>
