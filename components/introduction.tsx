@@ -17,7 +17,7 @@ const Introduction = () => {
         {/* Foto de perfil transparente png */}
         <div className="
         sm:mt-10 max-sm:mt-10 lg:mt-20 
-        
+
         ">
         <Image 
             src="/home-4.png" 
@@ -71,7 +71,7 @@ const Introduction = () => {
             </p>
             
             {/* Botones debajo de la descripción */}
-            <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
+            <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10 max:sm:mb-20">
                     
                     {/* Botón de ver proyectos */}
                     <Link 

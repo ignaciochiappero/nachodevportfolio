@@ -13,7 +13,7 @@ const CounterServices = () => {
         {/* Efecto de conteo en cada una de las categorías, para cambiarlas ir a @/data */}
         {dataCounter.map(({id, endCounter, text, lineRight, lineRightMobile}) => (
 
-            <div key={id} className={`${lineRight && 'ltr'}`}>
+            <div key={id} className={`${lineRight && ' ltr'}`}>
                 <div className={`
                     ${lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'}
                     ${lineRightMobile && 'border-e-gray-100'}

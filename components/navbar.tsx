@@ -20,7 +20,9 @@ const Navbar = () => {
     return (
 
     //Caja de la navbar
-    <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
+    <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max 
+    
+    max-sm:bottom-2 sm:bottom-5 md:bottom-10">
         
         {/* Navbar visible */}
         <nav>
