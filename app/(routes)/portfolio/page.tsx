@@ -8,13 +8,17 @@ import CircleImage from "@/components/circle-image";
 import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import PortfolioBox from "@/components/portfolio-box";
-
+import CoverParticles from "@/components/cover-particles";
 
 const PortfolioPage = () => {
 
     return (
+        <>
+         <TransitionPage />
+         <CoverParticles/>
         <ContainerPage>
-            <TransitionPage />
+            
+           
             <AvatarPortfolio />
             <CircleImage />
             <div className="flex flex-col justify-center h-full">
@@ -27,6 +31,7 @@ const PortfolioPage = () => {
                 </div>
             </div>
         </ContainerPage>
+        </>
     );
 }
 
