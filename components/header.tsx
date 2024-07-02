@@ -20,7 +20,7 @@ const Header = () => {
                 <Link href="/">
 
                     <h1 className="my-3 text-4xl font-bold text-center md:text-left">
-                        Nacho
+                        Nacho {' '}
                         <span className="text-secondary">
                             Dev
                         </span>

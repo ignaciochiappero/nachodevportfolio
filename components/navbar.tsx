@@ -1,5 +1,7 @@
 "use client"
 
+import React, { useState } from "react";
+
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
@@ -11,10 +13,10 @@ import MotionTransition from "./transition-component";
 
 const Navbar = () => {
 
-    const router = usePathname()
+    const router = usePathname();
 
 
-    
+
     return (
 
     //Caja de la navbar
@@ -31,9 +33,17 @@ const Navbar = () => {
                       className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link && 'bg-secondary'}`}
                     >
 
-                        <Link href={item.link}>{item.icon}</Link>
+                        <Link href={item.link}>
+                        
+                        {item.icon}
+                        
+                        </Link>
+
+
                     </div>
                 )) }
+
+                
             </div>
 
 
