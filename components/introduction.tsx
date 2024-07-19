@@ -24,22 +24,19 @@ const Introduction = () => {
         <div className="flex flex-col items-center justify-center max-w-md mx-auto">
   {/* Título estático */}
   <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-    Si puedes pensarlo, <br />
+    Si podés soñarlo, <br />
     {/* Texto animado */}
     <TypeAnimation 
       sequence={[
-        "puedes programarlo",
+        "podés programarlo",
         1000,
-        "puedes optimizarlo",
+        "podés optimizarlo",
         1000,
-        "puedes implementarlo",
+        "podés implementarlo",
         1000,
-        "puedes desarrollarlo",
+        "podés mejorarlo",
         1000,
-        "puedes mejorarlo",
-        1000,
-        "puedes agigantarlo",
-        1000,
+        
       ]}
       wrapper="span"
       speed={50}
@@ -50,7 +47,7 @@ const Introduction = () => {
 
   {/* Descripción del portfolio */}
   <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-center">
-    Desarrollador web full stack con experiencia en tecnologías como React, Node.js, MongoDB, C++, Java y Diseño gráfico
+    Desarrollador web full stack con conocimientos en tecnologías como React, NodeJS, NextJS, NestJS, Vite, Prisma, PostgreSQL, MongoDB, Python, C++, Java y Diseño gráfico
   </p>
 
   {/* Botones */}
