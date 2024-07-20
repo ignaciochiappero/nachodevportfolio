@@ -150,24 +150,24 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "CRUD Blog",
+        title: "CRUD Blog - Mi historia",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/ignaciochiappero/crudblog-nextjs.git",
+        urlDemo: "https://crudblog-nextjs.vercel.app",
     },
     {
         id: 2,
         title: "CRUD Task App",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
+        urlDemo: "https://tasksfront-production.up.railway.app",
     },
     {
         id: 3,
         title: "CRUD Project Login",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/ignaciochiappero/nachodevlogin.git",
+        urlDemo: "https://nachodevlogin-production.up.railway.app",
     },
     {
         id: 4,
