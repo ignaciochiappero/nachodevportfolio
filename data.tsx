@@ -1,4 +1,7 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, Database,MonitorSmartphone, HeartHandshake, BrainCircuit,Footprints } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database,MonitorSmartphone, HeartHandshake, BrainCircuit,Footprints } from "lucide-react";
+
+
+
 
 export const socialNetworks = [
     {
@@ -52,8 +55,8 @@ export const itemsNavbar = [
     {
         id: 5,
         title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
+        icon: <Wrench size={25} color="#fff" strokeWidth={1} />,
+        link: "/technologies",
     },
 ];
 
@@ -235,47 +238,83 @@ export const dataPortfolio = [
     }
 ];
 
-export const dataTestimonials = [
+export const dataTechnologies = [
     {
         id: 1,
-        name: "George Snow",
+        name: "Next JS",
         description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
+            "¡Impresionante framework! Con Next.js, creo aplicaciones web rápidas y dinámicas. Su capacidad para el renderizado del lado del servidor y la generación de sitios estáticos mejora significativamente el rendimiento.",
+        imageUrl: "/Next.png",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "Nest JS",
         description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
+            "Me encanta trabajar con Nest.js. Este poderoso framework me permite desarrollar aplicaciones backend robustas y escalables con una arquitectura modular y bien estructurada. ¡Es perfecto para proyectos grandes!",
+        imageUrl: "/Nest.png",
     },
     {
         id: 3,
-        name: "María García",
+        name: "React",
         description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+            "React es una herramienta esencial en mi desarrollo front-end. Con su enfoque basado en componentes, puedo crear interfaces de usuario interactivas y mantener el código limpio y reutilizable.",
+        imageUrl: "/React.png",
     },
     {
         id: 4,
-        name: "Laura Snow",
+        name: "Mongo DB",
         description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
+            "MongoDB es mi base de datos preferida para almacenar datos NoSQL. Su flexibilidad y escalabilidad me permiten manejar grandes volúmenes de datos de manera eficiente, asegurando un rendimiento óptimo.",
+        imageUrl: "/Mongo.png",
     },
     {
         id: 5,
-        name: "Carla Sánchez",
+        name: "C++",
         description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
+            "C++ es fundamental en mi formación. Este lenguaje de programación me ha permitido comprender los conceptos básicos de la programación orientada a objetos y desarrollar aplicaciones de alto rendimiento.",
+        imageUrl: "/C++.png",
     },
     {
         id: 6,
-        name: "Antonio Martínez",
+        name: "Java",
         description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
+            "Java es un pilar en mi arsenal de programación. Con su enfoque orientado a objetos y su amplio ecosistema, puedo desarrollar aplicaciones robustas y escalables, desde juegos hasta sistemas empresariales.",
+        imageUrl: "/Java.png",
     },
+    {
+        id: 7,
+        name: "Photoshop",
+        description:
+            "Photoshop es mi herramienta favorita para el diseño gráfico. Me permite crear y editar imágenes con precisión y creatividad, asegurando que cada proyecto tenga un acabado profesional.",
+        imageUrl: "/Photoshop.png",
+    },
+    {
+        id: 8,
+        name: "CorelDraw",
+        description:
+            "CorelDraw es esencial para mis proyectos de diseño vectorial. Con sus potentes herramientas de ilustración, puedo crear gráficos precisos y detallados, perfectos para logotipos y materiales impresos.",
+        imageUrl: "/Corel.png",
+    },
+    {
+        id: 9,
+        name: "Vite",
+        description:
+            "Vite es una revelación en el desarrollo web. Con su rápida configuración y tiempo de compilación increíblemente veloz, puedo optimizar mi flujo de trabajo y mejorar la eficiencia en mis proyectos.",
+        imageUrl: "/Vite.png",
+    },
+    {
+        id: 10,
+        name: "Sony Vegas",
+        description:
+            "Sony Vegas es mi elección para la edición de video. Su interfaz intuitiva y potentes herramientas de edición me permiten crear contenido de video profesional de manera rápida y eficiente.",
+        imageUrl: "/Sony.png",
+    },
+    {
+        id: 11,
+        name: "After Effects",
+        description:
+            "After Effects es esencial para mis animaciones y efectos visuales. Me permite añadir dinamismo y creatividad a mis proyectos de video, logrando resultados impresionantes y de alta calidad.",
+        imageUrl: "/After.png",
+    }
+    
 ];
