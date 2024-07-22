@@ -19,7 +19,7 @@ const ServicePage = () => {
       
       max-sm:mt-10 sm:mt-10
       max-sm:mx-4 md:mx-3
-      grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20">
+      grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20 ">
             
             <div className="max-w-[450px] mt-20 md:mt-0">
 
@@ -33,7 +33,7 @@ const ServicePage = () => {
                     </h1>
 
 
-                    <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.</p>
+                    <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de desarrollo web y aplicaciones, frontend y backend, con un enfoque en estética y funcionalidad. Utilizo las últimas tecnologías y también ofrezco diseño gráfico y contenido, creando interfaces atractivas e intuitivas que reflejan la identidad de mis clientes y conectan integralmente con su público.</p>
 
 
                     <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
