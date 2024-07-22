@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech, Facebook, Github, Database,MonitorSmartphone, HeartHandshake, BrainCircuit,Footprints } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -127,10 +127,11 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
+
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <Computer />,
+        title: "Desarrollo Full Stack",
+        description: "Soluciones web completas con tecnologías front-end y back-end."
     },
     {
         icon: <Pencil />,
@@ -138,9 +139,9 @@ export const serviceData = [
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        icon: <Crop />,
+        title: "Branding",
+        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
     },
     {
         icon: <Book />,
@@ -148,10 +149,31 @@ export const serviceData = [
         description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
     },
     {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <Database />,
+        title: "Bases de datos",
+        description: "Brindo un servicio integral para guardar y proteger la información de tu sitio y tus usuarios. ",
     },
+    
+    {
+        icon: <MonitorSmartphone />,
+        title: "Multiplataforma",
+        description: "Desarrollo tu sitio para múltiples plataformas y dispositivos, según nececedidad ",
+    },
+    {
+        icon: <HeartHandshake />,
+        title: "Consultoría Web",
+        description: "Asesoramiento en tecnologías como NextJS y React para optimizar tus proyectos."
+    },
+    {
+        icon: <BrainCircuit />,
+        title: "IA Básica",
+        description: "Soluciones sencillas de IA para mejorar tus aplicaciones con aprendizaje automático."
+    },
+    {
+        icon: <Footprints />,
+        title: "Soporte Post-Lanzamiento",
+        description: "Mantenimiento y soporte continuo para asegurar el buen funcionamiento de tus aplicaciones."
+    }
 ];
 
 export const dataPortfolio = [
