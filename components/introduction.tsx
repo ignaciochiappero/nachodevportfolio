@@ -47,7 +47,7 @@ const Introduction = () => {
 
   {/* Descripción del portfolio */}
   <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-center">
-    Desarrollador web full stack con conocimientos en tecnologías como React, NodeJS, NextJS, NestJS, Vite, Prisma, PostgreSQL, MongoDB, Python, C++, Java y Diseño gráfico
+    Desarrollador web Full Stack y diseñador gráfico.
   </p>
 
   {/* Botones */}
