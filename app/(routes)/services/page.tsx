@@ -32,11 +32,18 @@ const ServicePage = () => {
                         <p className="mb-3 text-xl text-gray-300">
                             Ofrezco servicios de desarrollo web y aplicaciones, frontend y backend, con un enfoque en estética y funcionalidad. Utilizo las últimas tecnologías y también ofrezco diseño gráfico y contenido, creando interfaces atractivas e intuitivas que reflejan la identidad de mis clientes y conectan integralmente con su público.
                         </p>
-                        <button className="
-                            px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65
-                        ">
-                            Contacta conmigo
-                        </button>
+
+
+                        <a href="https://wa.me/5493424094061">
+                            <button className="
+                               px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-md hover:shadow-secondary
+                            ">
+                                Contacta conmigo
+                            </button>
+                        
+                        </a>
+
+
                     </div>
 
                     {/* Slider */}

@@ -62,7 +62,7 @@ const Introduction = () => {
 
     {/* Botón de Contacta conmigo */}
     <a 
-      href="https://w.app/NachoChiappero"
+      href="https://wa.me/5493424094061"
       className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary"
     >
       Contacta conmigo
