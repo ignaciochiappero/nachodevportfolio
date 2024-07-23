@@ -4,6 +4,8 @@ import Link from "next/link";
 import MotionTransition from "./transition-component";
 import { socialNetworks } from "@/data";
 
+import Image from "next/image";
+
 
 
 const Header = () => {
@@ -17,7 +19,20 @@ const Header = () => {
                 
 
                 {/* NOMBRE BOTÓN */}
-                <Link href="/">
+                <Link href="/" className="flex gap-2 justify-center items-center">
+                    
+                    <div>
+                        <Image 
+                        src="/Logo2.png"
+                        width="30"
+                        height="30"
+                        alt="logo"
+                        
+                        />
+
+                    </div>
+
+
 
                     <h1 className="my-3 text-4xl font-bold text-center md:text-left">
                         Nacho {' '}

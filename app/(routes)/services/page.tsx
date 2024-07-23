@@ -21,7 +21,9 @@ const ServicePage = () => {
                 ">
                     {/* Contenedor del texto descriptivo */}
                     <div className="max-w-[450px] mt-20 md:mt-0 text-center md:text-left
-                        max-sm:mt-20 
+                        md:pt-0
+                        max-sm:mt-20 max-sm:pt-20
+                        sm:pt-20
                     ">
                         <h1 className="
                             text-2xl leading-tight md:text-4xl md:mb-5
