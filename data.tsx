@@ -203,39 +203,12 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "C++ Games",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Chatbot - nIA",
+        image: "/nIA.png",
+        urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
+        urlDemo: "https://chatai-nachodev.vercel.app",
     },
-    {
-        id: 5,
-        title: "Javascript Games",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "IA",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Figma",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "WordPress Webs",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+ 
 ];
 
 export const dataTechnologies = [
