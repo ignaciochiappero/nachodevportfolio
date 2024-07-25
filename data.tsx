@@ -203,17 +203,24 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Chatbot - nIA",
+        title: "nIA Chatbot - IA",
         image: "/nIA.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
         urlDemo: "https://chatai-nachodev.vercel.app",
     },
     {
         id: 5,
-        title: "Reconocedor de objetos - nIA",
+        title: "Reconocedor de objetos - IA",
         image: "/nIA.png",
         urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
         urlDemo: "https://watchai-nachodev.vercel.app",
+    },
+    {
+        id: 6,
+        title: "Videojuego con reconomiento de gestos - IA",
+        image: "/nIA.png",
+        urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
+        urlDemo: "https://niarocketgame.vercel.app",
     },
  
 ];
@@ -222,79 +229,68 @@ export const dataTechnologies = [
     {
         id: 1,
         name: "Next JS",
-        description:
-            "¡Impresionante framework! Con Next.js, creo aplicaciones web rápidas y dinámicas. Su capacidad para el renderizado del lado del servidor y la generación de sitios estáticos mejora significativamente el rendimiento.",
-        imageUrl: "/Next.png",
+        description: "Framework para crear aplicaciones web rápidas y dinámicas con características como renderizado del lado del servidor y generación de sitios estáticos, que mejoran significativamente la velocidad y el rendimiento de las aplicaciones.",
+        imageUrl: "/Next.png"
     },
     {
         id: 2,
         name: "Nest JS",
-        description:
-            "Me encanta trabajar con Nest.js. Este poderoso framework me permite desarrollar aplicaciones backend robustas y escalables con una arquitectura modular y bien estructurada. ¡Es perfecto para proyectos grandes!",
-        imageUrl: "/Nest.png",
+        description: "Framework robusto para el desarrollo de aplicaciones backend, que facilita la creación de sistemas escalables y mantenibles mediante una arquitectura modular y bien estructurada.",
+        imageUrl: "/Nest.png"
     },
     {
         id: 3,
         name: "React",
-        description:
-            "React es una herramienta esencial en mi desarrollo front-end. Con su enfoque basado en componentes, puedo crear interfaces de usuario interactivas y mantener el código limpio y reutilizable.",
-        imageUrl: "/React.png",
+        description: "Librería para el desarrollo de interfaces de usuario interactivas, que utiliza un enfoque basado en componentes para construir aplicaciones front-end con un código limpio y reutilizable.",
+        imageUrl: "/React.png"
     },
     {
         id: 4,
         name: "Mongo DB",
-        description:
-            "MongoDB es mi base de datos preferida para almacenar datos NoSQL. Su flexibilidad y escalabilidad me permiten manejar grandes volúmenes de datos de manera eficiente, asegurando un rendimiento óptimo.",
-        imageUrl: "/Mongo.png",
+        description: "Base de datos NoSQL que permite almacenar grandes volúmenes de datos con flexibilidad y escalabilidad, facilitando la gestión de información no estructurada y el rendimiento en aplicaciones grandes.",
+        imageUrl: "/Mongo.png"
     },
     {
         id: 5,
         name: "C++",
-        description:
-            "C++ es fundamental en mi formación. Este lenguaje de programación me ha permitido comprender los conceptos básicos de la programación orientada a objetos y desarrollar aplicaciones de alto rendimiento.",
-        imageUrl: "/C++.png",
+        description: "Lenguaje de programación que proporciona herramientas para desarrollar aplicaciones de alto rendimiento y entender conceptos avanzados de programación orientada a objetos, utilizado en aplicaciones de sistemas y juegos.",
+        imageUrl: "/C++.png"
     },
     {
         id: 6,
         name: "Java",
-        description:
-            "Java es un pilar en mi arsenal de programación. Con su enfoque orientado a objetos y su amplio ecosistema, puedo desarrollar aplicaciones robustas y escalables, desde juegos hasta sistemas empresariales.",
-        imageUrl: "/Java.png",
+        description: "Lenguaje de programación orientado a objetos que ofrece un entorno estable para desarrollar aplicaciones robustas y escalables, desde aplicaciones empresariales hasta sistemas complejos y juegos.",
+        imageUrl: "/Java.png"
     },
     {
         id: 7,
         name: "Photoshop",
-        description:
-            "Photoshop es mi herramienta favorita para el diseño gráfico. Me permite crear y editar imágenes con precisión y creatividad, asegurando que cada proyecto tenga un acabado profesional.",
-        imageUrl: "/Photoshop.png",
+        description: "Herramienta de diseño gráfico avanzada que permite crear y editar imágenes con precisión, ideal para proyectos que requieren un acabado profesional y creativo en el diseño visual.",
+        imageUrl: "/Photoshop.png"
     },
     {
         id: 8,
         name: "CorelDraw",
-        description:
-            "CorelDraw es esencial para mis proyectos de diseño vectorial. Con sus potentes herramientas de ilustración, puedo crear gráficos precisos y detallados, perfectos para logotipos y materiales impresos.",
-        imageUrl: "/Corel.png",
+        description: "Software especializado en diseño vectorial, proporcionando herramientas poderosas para crear gráficos detallados y precisos, perfectos para logotipos, ilustraciones y materiales impresos.",
+        imageUrl: "/Corel.png"
     },
     {
         id: 9,
         name: "Vite",
-        description:
-            "Vite es una revelación en el desarrollo web. Con su rápida configuración y tiempo de compilación increíblemente veloz, puedo optimizar mi flujo de trabajo y mejorar la eficiencia en mis proyectos.",
-        imageUrl: "/Vite.png",
+        description: "Herramienta moderna para el desarrollo web que ofrece una configuración rápida y tiempos de compilación extremadamente cortos, optimizando el flujo de trabajo y mejorando la eficiencia en los proyectos.",
+        imageUrl: "/Vite.png"
     },
     {
         id: 10,
         name: "Sony Vegas",
-        description:
-            "Sony Vegas es mi elección para la edición de video. Su interfaz intuitiva y potentes herramientas de edición me permiten crear contenido de video profesional de manera rápida y eficiente.",
-        imageUrl: "/Sony.png",
+        description: "Software de edición de video con una interfaz intuitiva y herramientas avanzadas, que facilita la creación de contenido de video profesional de manera rápida y eficiente.",
+        imageUrl: "/Sony.png"
     },
     {
         id: 11,
         name: "After Effects",
-        description:
-            "After Effects es esencial para mis animaciones y efectos visuales. Me permite añadir dinamismo y creatividad a mis proyectos de video, logrando resultados impresionantes y de alta calidad.",
-        imageUrl: "/After.png",
+        description: "Aplicación clave para la creación de animaciones y efectos visuales en video, que permite añadir dinamismo y creatividad a proyectos de video, logrando resultados impresionantes y de alta calidad.",
+        imageUrl: "/After.png"
     }
     
 ];
