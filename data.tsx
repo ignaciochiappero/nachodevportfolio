@@ -208,6 +208,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
         urlDemo: "https://chatai-nachodev.vercel.app",
     },
+    {
+        id: 5,
+        title: "Reconocedor de objetos - nIA",
+        image: "/nIA.png",
+        urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
+        urlDemo: "https://watchai-nachodev.vercel.app",
+    },
  
 ];
 
