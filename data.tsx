@@ -1,4 +1,6 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database,MonitorSmartphone, HeartHandshake, BrainCircuit,Footprints } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database,MonitorSmartphone, HeartHandshake, BrainCircuit,Footprints,  } from "lucide-react";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 
@@ -6,8 +8,8 @@ import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Instagram size={30} strokeWidth={1} />,
-        src: "https://www.instagram.com/nachochiappero/",
+        logo: <FaWhatsapp size={30} strokeWidth={1} />,
+        src: "https://wa.me/15551234567",
     },
     {
         id: 2,
@@ -19,11 +21,7 @@ export const socialNetworks = [
         logo: <Github size={30} strokeWidth={1} />,
         src: "https://github.com/ignaciochiappero",
     },
-    {
-        id: 4,
-        logo: <Facebook size={30} strokeWidth={1} />,
-        src: "https://web.facebook.com/nacho.chiappero/",
-    },
+
 ];
 
 
