@@ -187,39 +187,41 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "CRUD Task App",
-        image: "/image-2.png",
-        urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
-        urlDemo: "https://tasksfront-production.up.railway.app",
-    },
-    {
-        id: 3,
         title: "CRUD Project Login",
         image: "/image-3.png",
         urlGithub: "https://github.com/ignaciochiappero/nachodevlogin.git",
         urlDemo: "https://nachodevlogin-production.up.railway.app",
     },
     {
+        id: 3,
+        title: "CRUD Task App",
+        image: "/image-2.png",
+        urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
+        urlDemo: "https://tasksfront-production.up.railway.app",
+    },
+
+    {
         id: 4,
         title: "nIA Chatbot - IA",
-        image: "/nIA.png",
+        image: "/image-4.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
         urlDemo: "https://chatai-nachodev.vercel.app",
     },
     {
         id: 5,
-        title: "Reconocedor de objetos - IA",
-        image: "/nIA.png",
-        urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
-        urlDemo: "https://watchai-nachodev.vercel.app",
-    },
-    {
-        id: 6,
-        title: "Videojuego con reconomiento de gestos - IA",
-        image: "/nIA.png",
+        title: "Reconocedor de gestos - IA",
+        image: "/image-6.png",
         urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
         urlDemo: "https://niarocketgame.vercel.app",
     },
+    {
+        id: 6,
+        title: "Reconocedor de objetos - IA",
+        image: "/image-5.png",
+        urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
+        urlDemo: "https://watchai-nachodev.vercel.app",
+    },
+
  
 ];
 
@@ -238,54 +240,61 @@ export const dataTechnologies = [
     },
     {
         id: 3,
+        name: "Git",
+        description: "Sistema de control de versiones distribuido que facilita la gestión y el seguimiento de cambios en el código fuente durante el desarrollo de software, permitiendo la colaboración efectiva entre múltiples desarrolladores y la conservación del historial de cambios.",
+        imageUrl: "/Git.png"
+    },
+    
+    {
+        id: 4,
         name: "React",
         description: "Librería para el desarrollo de interfaces de usuario interactivas, que utiliza un enfoque basado en componentes para construir aplicaciones front-end con un código limpio y reutilizable.",
         imageUrl: "/React.png"
     },
     {
-        id: 4,
+        id: 5,
         name: "Mongo DB",
         description: "Base de datos NoSQL que permite almacenar grandes volúmenes de datos con flexibilidad y escalabilidad, facilitando la gestión de información no estructurada y el rendimiento en aplicaciones grandes.",
         imageUrl: "/Mongo.png"
     },
     {
-        id: 5,
+        id: 6,
         name: "C++",
         description: "Lenguaje de programación que proporciona herramientas para desarrollar aplicaciones de alto rendimiento y entender conceptos avanzados de programación orientada a objetos, utilizado en aplicaciones de sistemas y juegos.",
         imageUrl: "/C++.png"
     },
     {
-        id: 6,
+        id: 7,
         name: "Java",
         description: "Lenguaje de programación orientado a objetos que ofrece un entorno estable para desarrollar aplicaciones robustas y escalables, desde aplicaciones empresariales hasta sistemas complejos y juegos.",
         imageUrl: "/Java.png"
     },
     {
-        id: 7,
+        id: 8,
         name: "Photoshop",
         description: "Herramienta de diseño gráfico avanzada que permite crear y editar imágenes con precisión, ideal para proyectos que requieren un acabado profesional y creativo en el diseño visual.",
         imageUrl: "/Photoshop.png"
     },
     {
-        id: 8,
+        id: 9,
         name: "CorelDraw",
         description: "Software especializado en diseño vectorial, proporcionando herramientas poderosas para crear gráficos detallados y precisos, perfectos para logotipos, ilustraciones y materiales impresos.",
         imageUrl: "/Corel.png"
     },
     {
-        id: 9,
+        id: 10,
         name: "Vite",
         description: "Herramienta moderna para el desarrollo web que ofrece una configuración rápida y tiempos de compilación extremadamente cortos, optimizando el flujo de trabajo y mejorando la eficiencia en los proyectos.",
         imageUrl: "/Vite.png"
     },
     {
-        id: 10,
+        id: 11,
         name: "Sony Vegas",
         description: "Software de edición de video con una interfaz intuitiva y herramientas avanzadas, que facilita la creación de contenido de video profesional de manera rápida y eficiente.",
         imageUrl: "/Sony.png"
     },
     {
-        id: 11,
+        id: 12,
         name: "After Effects",
         description: "Aplicación clave para la creación de animaciones y efectos visuales en video, que permite añadir dinamismo y creatividad a proyectos de video, logrando resultados impresionantes y de alta calidad.",
         imageUrl: "/After.png"
