@@ -11,7 +11,7 @@ const PortfolioPage = () => {
       <TransitionPage />
       <CoverParticles />
       <ContainerPage>
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full  mb-20">
           <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
             Mis últimos{" "}
             <span className="font-bold text-secondary">
