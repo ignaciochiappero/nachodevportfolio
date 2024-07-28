@@ -200,7 +200,7 @@ export const dataPortfolio = [
       image: "/image-2.png",
       urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
       urlDemo: "https://tasksfront-production.up.railway.app",
-      description: "Aplicación CRUD para la gestión de tareas que permite agregar, editar y eliminar tareas, así como marcar su estado de finalización. El proyecto está dividido en dos repositorios: uno para el backend (usando Nest.js) y otro para el frontend (usando Vite), con una base de datos NoSQL gestionada por el mismo servicio de despliegue. Este enfoque busca una mayor escalabilidad y experimentar con Vite como alternativa a Next.js. - Tecnologías utilizadas: Vite + TypeScript + TailwindCSS + Nest.js + MongoDB + React - Desplegada en Railway",
+      description: "Aplicación CRUD para la gestión de tareas que permite agregar y eliminar tareas, así como marcar su estado de finalización. El proyecto está dividido en dos repositorios: uno para el backend (usando Nest.js) y otro para el frontend (usando Vite), con una base de datos NoSQL gestionada por  el mismo servicio de despliegue. Este enfoque busca una mayor escalabilidad y experimentar con Vite como alternativa a Next.js. - Tecnologías utilizadas: Vite + TypeScript + TailwindCSS + Nest.js + MongoDB + React - Desplegada en Railway",
     },
     {
         id: 4,
