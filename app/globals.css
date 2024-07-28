@@ -25,3 +25,23 @@ main {
     text-wrap: balance;
   }
 }
+
+/* globals.css */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+  height: 8px; /* Altura de la barra de desplazamiento (para scroll horizontal) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Color del pulgar de la barra de desplazamiento */
+  border-radius: 9999px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Color del rastro de la barra de desplazamiento */
+  border-radius: 9999px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent; /* Color de la esquina de la barra de desplazamiento */
+}

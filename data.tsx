@@ -179,62 +179,70 @@ export const serviceData = [
 
 export const dataPortfolio = [
     {
-        id: 1,
-        title: "CRUD Blog - Mi historia",
-        image: "/image-1.png",
-        urlGithub: "https://github.com/ignaciochiappero/crudblog-nextjs.git",
-        urlDemo: "https://crudblog-nextjs.vercel.app",
+      id: 1,
+      title: "CRUD Blog - Mi historia",
+      image: "/image-1.png",
+      urlGithub: "https://github.com/ignaciochiappero/crudblog-nextjs.git",
+      urlDemo: "https://crudblog-nextjs.vercel.app",
+      description: "Un CRUD construido a modo de blog para contar un poco quien soy, de dónde vengo, y para que los usuarios puedan agregar sus propias experiencias de vida - Tecnologías utilizadas para su construcción: Next.js + JavaScript + Bootstrap 5 + MongoDb + React - Desplegada en Vercel",
     },
     {
-        id: 2,
-        title: "CRUD Project Login",
-        image: "/image-3.png",
-        urlGithub: "https://github.com/ignaciochiappero/nachodevlogin.git",
-        urlDemo: "https://nachodevlogin-production.up.railway.app",
+      id: 2,
+      title: "CRUD Project Login",
+      image: "/image-3.png",
+      urlGithub: "https://github.com/ignaciochiappero/nachodevlogin.git",
+      urlDemo: "https://nachodevlogin-production.up.railway.app",
+      description: "Un CRUD a modo de TaskApp, diseñada para que el usuario agregue un título y descripción de cuantos proyectos quiera, así como editar y eliminar información, con una base de datos SQL que tiene a Prisma como intermediario, y personalizada para el usuario gracias a tener un Login integrado, a través de NextAuth. - Tecnologías utilizadas para su contrucción: Next.js + TypeScrip + NextAuth + Radix UI + TailwindCSS + Prisma + PostgreSQL + React - Desplegada en Railway",
     },
     {
-        id: 3,
-        title: "CRUD Task App",
-        image: "/image-2.png",
-        urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
-        urlDemo: "https://tasksfront-production.up.railway.app",
+      id: 3,
+      title: "CRUD Task App",
+      image: "/image-2.png",
+      urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
+      urlDemo: "https://tasksfront-production.up.railway.app",
+      description: "Un CRUD TaskApp, diseñada para agregar, editar y eliminar tareas, así como marcar si las mismas están concluídas o no, creada con dos repositorios separados, uno backend, y otro frontend, con una base de datos noSQL servida por el mismo servicio de despliegue, utilizando Nest.js para el backend buscando que sea un proyecto con mayor escalabilidad, mientras que en el frontend utilicé Vite para experimentar con el funcionamiento de este framework y tener una variante a Next.js - Tecnologías utilizadas para su contrucción: Vite + TypeScrip + TailwindCSS + Nest.js + MongoDb + React - Desplegada en Railway",
     },
-
     {
         id: 4,
         title: "nIA Chatbot - IA",
         image: "/image-4.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
         urlDemo: "https://chatai-nachodev.vercel.app",
-    },
-    {
-        id: 5,
-        title: "Reconocedor de gestos - IA",
-        image: "/image-6.png",
-        urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
-        urlDemo: "https://niarocketgame.vercel.app",
-    },
-    {
-        id: 6,
-        title: "Reconocedor de objetos - IA",
-        image: "/image-5.png",
-        urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
-        urlDemo: "https://watchai-nachodev.vercel.app",
-    },
+        description: "Aplicación web que integra un chatbot basado en el modelo de lenguaje Gemini Pro. Utiliza Next.js para el frontend, Tailwind CSS para la estilización, y WebSockets o una API de streaming para manejar la interacción en tiempo real. La salida del chatbot se presenta en formato Markdown para una visualización dinámica y formateada. - Tecnologías utilizadas: Next.js + Tailwind CSS + Gemini Pro API + Markdown - Desplegada en Vercel"
+    }
+      ,
 
- 
-];
+
+    
+    {
+      id: 5,
+      title: "Reconocedor de gestos - IA",
+      image: "/image-6.png",
+      urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
+      urlDemo: "https://niarocketgame.vercel.app",
+      description: "Un videojuego experimental que utiliza tecnologías como Next.Js y bibliotecas adaptadas a JavaScript como MediaPipe para el reconocimiento y percepción visual de patrones. INSTRUCCIONES: 1- Mostrar las dos manos a la cámara para que inicie el juego // 2- Mano derecha arriba y mano izquierda abajo = GIRO A LA IZQUIERDA // 3- Mano izquierda arriba y mano derecha abajo = GIRO A LA DERECHA // 4- Si no se muestran las manos, se pausa el juego - Tecnologías: Next.js + MediaPipe.js - Desplegada en Vercel ",
+    },
+    {
+      id: 6,
+      title: "Reconocedor de objetos - IA",
+      image: "/image-5.png",
+      urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
+      urlDemo: "https://watchai-nachodev.vercel.app",
+      description: "Aplicación web experimental que mediante la cámara del ordenador o del móvil puede reconocer objetos genéricos, así como diferenciarlos de las personas, construída con tecnologías como Next.js para el entorno, así como nuevas adaptaciones a JavaScript de la librería Tensorflow, especializada en entrenamiento e implementación de modelos de aprendizaje automático, así como también librerías de componentes de interfaz de usuario como ShadcnUI - Tecnologías: Next.js + TailwindCSS + ShadcnUI + TensorFlow.js - Desplegada en Vercel",
+    },
+  ];
+  
 
 export const dataTechnologies = [
     {
         id: 1,
-        name: "Next JS",
+        name: "Next.js",
         description: "Framework para crear aplicaciones web rápidas y dinámicas con características como renderizado del lado del servidor y generación de sitios estáticos, que mejoran significativamente la velocidad y el rendimiento de las aplicaciones.",
         imageUrl: "/Next.png"
     },
     {
         id: 2,
-        name: "Nest JS",
+        name: "Nest.js",
         description: "Framework robusto para el desarrollo de aplicaciones backend, que facilita la creación de sistemas escalables y mantenibles mediante una arquitectura modular y bien estructurada.",
         imageUrl: "/Nest.png"
     },
@@ -244,7 +252,6 @@ export const dataTechnologies = [
         description: "Sistema de control de versiones distribuido que facilita la gestión y el seguimiento de cambios en el código fuente durante el desarrollo de software, permitiendo la colaboración efectiva entre múltiples desarrolladores y la conservación del historial de cambios.",
         imageUrl: "/Git.png"
     },
-    
     {
         id: 4,
         name: "React",
@@ -259,45 +266,62 @@ export const dataTechnologies = [
     },
     {
         id: 6,
+        name: "Node.js",
+        description: "Entorno de ejecución para JavaScript que permite desarrollar aplicaciones escalables y rápidas del lado del servidor, utilizando un modelo de E/S no bloqueante y un solo subproceso.",
+        imageUrl: "/Node.png"
+    },
+    {
+        id: 7,
         name: "C++",
         description: "Lenguaje de programación que proporciona herramientas para desarrollar aplicaciones de alto rendimiento y entender conceptos avanzados de programación orientada a objetos, utilizado en aplicaciones de sistemas y juegos.",
         imageUrl: "/C++.png"
     },
     {
-        id: 7,
+        id: 8,
+        name: "Prisma ORM",
+        description: "ORM moderno que facilita el acceso a bases de datos y la gestión de datos en aplicaciones Node.js y TypeScript, proporcionando una experiencia de desarrollo más intuitiva y eficiente.",
+        imageUrl: "/Prisma.png"
+    },
+    {
+        id: 9,
+        name: "PostgreSQL",
+        description: "Sistema de gestión de bases de datos relacional que ofrece una alta fiabilidad y un conjunto de características avanzadas, ideal para aplicaciones que requieren un manejo robusto y seguro de datos.",
+        imageUrl: "/Postgre.png"
+    },
+    {
+        id: 10,
         name: "Java",
         description: "Lenguaje de programación orientado a objetos que ofrece un entorno estable para desarrollar aplicaciones robustas y escalables, desde aplicaciones empresariales hasta sistemas complejos y juegos.",
         imageUrl: "/Java.png"
     },
     {
-        id: 8,
+        id: 11,
         name: "Photoshop",
         description: "Herramienta de diseño gráfico avanzada que permite crear y editar imágenes con precisión, ideal para proyectos que requieren un acabado profesional y creativo en el diseño visual.",
         imageUrl: "/Photoshop.png"
     },
     {
-        id: 9,
+        id: 12,
         name: "CorelDraw",
         description: "Software especializado en diseño vectorial, proporcionando herramientas poderosas para crear gráficos detallados y precisos, perfectos para logotipos, ilustraciones y materiales impresos.",
         imageUrl: "/Corel.png"
     },
     {
-        id: 10,
+        id: 13,
         name: "Vite",
         description: "Herramienta moderna para el desarrollo web que ofrece una configuración rápida y tiempos de compilación extremadamente cortos, optimizando el flujo de trabajo y mejorando la eficiencia en los proyectos.",
         imageUrl: "/Vite.png"
     },
     {
-        id: 11,
+        id: 14,
         name: "Sony Vegas",
         description: "Software de edición de video con una interfaz intuitiva y herramientas avanzadas, que facilita la creación de contenido de video profesional de manera rápida y eficiente.",
         imageUrl: "/Sony.png"
     },
     {
-        id: 12,
+        id: 15,
         name: "After Effects",
         description: "Aplicación clave para la creación de animaciones y efectos visuales en video, que permite añadir dinamismo y creatividad a proyectos de video, logrando resultados impresionantes y de alta calidad.",
         imageUrl: "/After.png"
     }
-    
 ];
