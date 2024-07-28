@@ -184,7 +184,7 @@ export const dataPortfolio = [
       image: "/image-1.png",
       urlGithub: "https://github.com/ignaciochiappero/crudblog-nextjs.git",
       urlDemo: "https://crudblog-nextjs.vercel.app",
-      description: "Un CRUD construido a modo de blog para contar un poco quien soy, de dónde vengo, y para que los usuarios puedan agregar sus propias experiencias de vida - Tecnologías utilizadas para su construcción: Next.js + JavaScript + Bootstrap 5 + MongoDb + React - Desplegada en Vercel",
+      description: "Aplicación CRUD diseñada como un blog personal para compartir información sobre mi trayectoria y permitir a los usuarios agregar sus propias experiencias de vida. Utiliza tecnologías como Next.js para el desarrollo del frontend, JavaScript y React para la construcción de la interfaz, y MongoDB para la gestión de datos. La aplicación está desplegada en Vercel. - Tecnologías utilizadas: Next.js + JavaScript + Bootstrap 5 + MongoDB + React - Desplegada en Vercel",
     },
     {
       id: 2,
@@ -192,7 +192,7 @@ export const dataPortfolio = [
       image: "/image-3.png",
       urlGithub: "https://github.com/ignaciochiappero/nachodevlogin.git",
       urlDemo: "https://nachodevlogin-production.up.railway.app",
-      description: "Un CRUD a modo de TaskApp, diseñada para que el usuario agregue un título y descripción de cuantos proyectos quiera, así como editar y eliminar información, con una base de datos SQL que tiene a Prisma como intermediario, y personalizada para el usuario gracias a tener un Login integrado, a través de NextAuth. - Tecnologías utilizadas para su contrucción: Next.js + TypeScrip + NextAuth + Radix UI + TailwindCSS + Prisma + PostgreSQL + React - Desplegada en Railway",
+      description: "Aplicación CRUD tipo TaskApp que permite a los usuarios agregar, editar y eliminar proyectos, con un sistema de inicio de sesión integrado mediante NextAuth para personalizar la experiencia. Utiliza Prisma como intermediario para la base de datos SQL y Radix UI junto con TailwindCSS para la interfaz de usuario. La aplicación está desplegada en Railway. - Tecnologías utilizadas: Next.js + TypeScript + NextAuth + Radix UI + TailwindCSS + Prisma + PostgreSQL + React - Desplegada en Railway",
     },
     {
       id: 3,
@@ -200,7 +200,7 @@ export const dataPortfolio = [
       image: "/image-2.png",
       urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
       urlDemo: "https://tasksfront-production.up.railway.app",
-      description: "Un CRUD TaskApp, diseñada para agregar, editar y eliminar tareas, así como marcar si las mismas están concluídas o no, creada con dos repositorios separados, uno backend, y otro frontend, con una base de datos noSQL servida por el mismo servicio de despliegue, utilizando Nest.js para el backend buscando que sea un proyecto con mayor escalabilidad, mientras que en el frontend utilicé Vite para experimentar con el funcionamiento de este framework y tener una variante a Next.js - Tecnologías utilizadas para su contrucción: Vite + TypeScrip + TailwindCSS + Nest.js + MongoDb + React - Desplegada en Railway",
+      description: "Aplicación CRUD para la gestión de tareas que permite agregar, editar y eliminar tareas, así como marcar su estado de finalización. El proyecto está dividido en dos repositorios: uno para el backend (usando Nest.js) y otro para el frontend (usando Vite), con una base de datos NoSQL gestionada por el mismo servicio de despliegue. Este enfoque busca una mayor escalabilidad y experimentar con Vite como alternativa a Next.js. - Tecnologías utilizadas: Vite + TypeScript + TailwindCSS + Nest.js + MongoDB + React - Desplegada en Railway",
     },
     {
         id: 4,
@@ -208,19 +208,15 @@ export const dataPortfolio = [
         image: "/image-4.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
         urlDemo: "https://chatai-nachodev.vercel.app",
-        description: "Aplicación web que integra un chatbot basado en el modelo de lenguaje Gemini Pro. Utiliza Next.js para el frontend, Tailwind CSS para la estilización, y WebSockets o una API de streaming para manejar la interacción en tiempo real. La salida del chatbot se presenta en formato Markdown para una visualización dinámica y formateada. - Tecnologías utilizadas: Next.js + Tailwind CSS + Gemini Pro API + Markdown - Desplegada en Vercel"
-    }
-      ,
-
-
-    
+        description: "Aplicación web que integra un chatbot basado en el modelo de lenguaje Gemini Pro. Utiliza Next.js para el desarrollo del frontend, Tailwind CSS para la estilización y una API de streaming para manejar la interacción en tiempo real. La salida del chatbot se presenta en formato Markdown para una visualización dinámica y bien formateada. - Tecnologías utilizadas: Next.js + Tailwind CSS + Gemini Pro API + Markdown - Desplegada en Vercel",
+    },
     {
       id: 5,
       title: "Reconocedor de gestos - IA",
       image: "/image-6.png",
       urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
       urlDemo: "https://niarocketgame.vercel.app",
-      description: "Un videojuego experimental que utiliza tecnologías como Next.Js y bibliotecas adaptadas a JavaScript como MediaPipe para el reconocimiento y percepción visual de patrones. INSTRUCCIONES: 1- Mostrar las dos manos a la cámara para que inicie el juego // 2- Mano derecha arriba y mano izquierda abajo = GIRO A LA IZQUIERDA // 3- Mano izquierda arriba y mano derecha abajo = GIRO A LA DERECHA // 4- Si no se muestran las manos, se pausa el juego - Tecnologías: Next.js + MediaPipe.js - Desplegada en Vercel ",
+      description: "Videojuego experimental que utiliza tecnologías avanzadas como Next.js y MediaPipe.js para el reconocimiento de gestos. El juego responde a los movimientos de las manos para controlar las acciones en pantalla. Las instrucciones son las siguientes: 1. Muestra ambas manos a la cámara para iniciar el juego. 2. Mano derecha arriba y mano izquierda abajo = Giro a la izquierda. 3. Mano izquierda arriba y mano derecha abajo = Giro a la derecha. 4. Si no se muestran las manos, el juego se pausa. - Tecnologías utilizadas: Next.js + MediaPipe.js - Desplegada en Vercel",
     },
     {
       id: 6,
@@ -228,9 +224,10 @@ export const dataPortfolio = [
       image: "/image-5.png",
       urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
       urlDemo: "https://watchai-nachodev.vercel.app",
-      description: "Aplicación web experimental que mediante la cámara del ordenador o del móvil puede reconocer objetos genéricos, así como diferenciarlos de las personas, construída con tecnologías como Next.js para el entorno, así como nuevas adaptaciones a JavaScript de la librería Tensorflow, especializada en entrenamiento e implementación de modelos de aprendizaje automático, así como también librerías de componentes de interfaz de usuario como ShadcnUI - Tecnologías: Next.js + TailwindCSS + ShadcnUI + TensorFlow.js - Desplegada en Vercel",
+      description: "Aplicación web experimental que utiliza la cámara del ordenador o móvil para reconocer y diferenciar objetos genéricos y personas. Construida con Next.js para la interfaz de usuario, TensorFlow.js para el entrenamiento e implementación de modelos de aprendizaje automático, y ShadcnUI para los componentes de interfaz. La aplicación está desplegada en Vercel. - Tecnologías utilizadas: Next.js + TailwindCSS + ShadcnUI + TensorFlow.js - Desplegada en Vercel",
     },
   ];
+
   
 
 export const dataTechnologies = [
