@@ -47,7 +47,7 @@ const Introduction = () => {
 
           {/* Descripción del portfolio */}
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-center">
-            Desarrollador web Full Stack y diseñador gráfico.
+            Desarrollador Web Full Stack, Especialista en Inteligencia Artificial y Diseñador Gráfico.
           </p>
 
           {/* Botones */}
