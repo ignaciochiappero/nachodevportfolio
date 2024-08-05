@@ -9,12 +9,13 @@ interface PortfolioBoxProps {
     urlGithub: string;
     urlDemo: string;
     description: string;
+    icon: JSX.Element; // Añadido
   };
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
   const { data } = props;
-  const { id, title, image, urlDemo, urlGithub, description } = data;
+  const { id, title, image, urlDemo, urlGithub, description, icon } = data;
 
   return (
     <div
@@ -29,6 +30,11 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
           height={300}
           className="w-full h-full rounded-2xl object-cover transition-transform duration-500 group-hover:scale-110"
         />
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          <div className="text-white text-4xl opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            {icon}
+          </div>
+        </div>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl p-4 backdrop-blur-sm">
           <h3 className="text-white text-lg font-bold mb-2">{title}</h3>
           <div className="text-white text-sm overflow-auto max-h-full">
