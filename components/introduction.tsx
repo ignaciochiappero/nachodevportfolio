@@ -14,17 +14,17 @@ const Introduction = () => {
             <Image 
               src="/home-4.png" 
               priority 
-              width={800} // Tamaño grande por defecto para pantallas grandes
+              width={800} 
               height={800}
               alt="Profile pic" 
-              className="w-full h-auto" // Asegúrate de que la imagen sea responsive
+              className="w-full h-auto" 
             />
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center max-w-md mx-auto">
+        <div className="flex flex-col items-center justify-center max-w-md mx-auto ">
           {/* Título estático */}
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10 w-[360px]">
             Si podés soñarlo, <br />
             {/* Texto animado */}
             <TypeAnimation 
