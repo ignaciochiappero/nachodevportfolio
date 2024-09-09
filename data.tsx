@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database, MonitorSmartphone, HeartHandshake, BrainCircuit, Footprints, Camera, Rocket } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database, MonitorSmartphone, HeartHandshake, BrainCircuit, Footprints, Camera, Rocket, ShoppingCart } from "lucide-react";
 import { BsCheckCircle, BsWhatsapp } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -176,7 +176,6 @@ export const serviceData = [
         description: "Mantenimiento y soporte continuo para asegurar el buen funcionamiento de tus aplicaciones."
     }
 ];
-
 export const dataPortfolio = [
     {
       id: 1,
@@ -198,15 +197,24 @@ export const dataPortfolio = [
     },
     {
       id: 3,
+      title: "NIA - Shop",
+      image: "/nia3.png",
+      urlGithub: "https://github.com/ignaciochiappero/niashop",
+      urlDemo: "https://niashop-six.vercel.app/",
+      description: "Tienda online completamente funcional que permite realizar pagos mediante tarjetas de crédito, débito y PayPal. La tienda está diseñada con Next.js para el frontend, Tailwind CSS para la estilización, Prisma y PostgreSQL para la base de datos, NextAuth para la autenticación de usuarios y Cloudinary para el manejo de imágenes. - Tecnologías utilizadas: Next.js + TailwindCSS + Prisma + PostgreSQL + NextAuth + Cloudinary - Desplegada en Vercel",
+      icon: <ShoppingCart size={60} />, // Ejemplo de ícono de carrito de compras
+    },
+    {
+      id: 4,
       title: "CRUD Task App",
       image: "/image-2.png",
       urlGithub: "https://github.com/ignaciochiappero/taskapi.git",
       urlDemo: "https://tasksfront-production.up.railway.app",
-      description: "Aplicación CRUD para la gestión de tareas que permite agregar y eliminar tareas, así como marcar su estado de finalización. El proyecto está dividido en dos repositorios: uno para el backend (usando Nest.js) y otro para el frontend (usando Vite), con una base de datos NoSQL gestionada por  el mismo servicio de despliegue. Este enfoque busca una mayor escalabilidad y experimentar con Vite como alternativa a Next.js. - Tecnologías utilizadas: Vite + TypeScript + TailwindCSS + Nest.js + MongoDB + React - Desplegada en Railway",
+      description: "Aplicación CRUD para la gestión de tareas que permite agregar y eliminar tareas, así como marcar su estado de finalización. El proyecto está dividido en dos repositorios: uno para el backend (usando Nest.js) y otro para el frontend (usando Vite), con una base de datos NoSQL gestionada por el mismo servicio de despliegue. Este enfoque busca una mayor escalabilidad y experimentar con Vite como alternativa a Next.js. - Tecnologías utilizadas: Vite + TypeScript + TailwindCSS + Nest.js + MongoDB + React - Desplegada en Railway",
       icon: <Pencil  size={60} />, 
     },
     {
-        id: 4,
+        id: 5,
         title: "nIA Chatbot - IA",
         image: "/image-4.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
@@ -215,7 +223,7 @@ export const dataPortfolio = [
         icon: <BrainCircuit size={60} />, 
     },
     {
-      id: 5,
+      id: 6,
       title: "Reconocedor de gestos - IA",
       image: "/image-6.png",
       urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
@@ -224,7 +232,7 @@ export const dataPortfolio = [
       icon: <Rocket  size={60} />, 
     },
     {
-      id: 6,
+      id: 7,
       title: "Reconocedor de objetos - IA",
       image: "/image-5.png",
       urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
@@ -234,7 +242,6 @@ export const dataPortfolio = [
     },
   ];
 
-  
 
 export const dataTechnologies = [
     {
