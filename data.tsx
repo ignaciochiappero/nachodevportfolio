@@ -9,7 +9,7 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <FaWhatsapp size={30} strokeWidth={1} />,
-        src: "https://wa.me/15551234567",
+        src: "https://wa.me/+543424094061",
     },
     {
         id: 2,
