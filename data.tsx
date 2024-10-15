@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database, MonitorSmartphone, HeartHandshake, BrainCircuit, Footprints, Camera, Rocket, ShoppingCart } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database, MonitorSmartphone, HeartHandshake, BrainCircuit, Footprints, Camera, Rocket, ShoppingCart, Gem } from "lucide-react";
 import { BsCheckCircle, BsWhatsapp } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -215,6 +215,16 @@ export const dataPortfolio = [
     },
     {
         id: 5,
+        title: "Portfolio Influencer - Jazmín Fintón",
+        image: "/image-7.png",
+        urlGithub: "https://github.com/ignaciochiappero/jazmindfinton",
+        urlDemo: "https://jazminfinton.vercel.app/",
+        description: "Portfolio profesional con trabajos de una influencer local, utilizando diversas tecnologías de frontend hecho a medida y pedido de la cliente, usando instancias de consultas con la misma y con un soporte constante de actualizaciones a pedido de la misma- - Tecnologías utilizadas: Next.js + Tailwind CSS + Swiper.js + Javascript + React  - Desplegada en Vercel",
+        icon: <Gem size={60} />, 
+    },
+    
+    {
+        id: 6,
         title: "nIA Chatbot - IA",
         image: "/image-4.png",
         urlGithub: "https://github.com/ignaciochiappero/chatai-nachodev",
@@ -222,8 +232,9 @@ export const dataPortfolio = [
         description: "Aplicación web que integra un chatbot basado en el modelo de lenguaje Gemini Pro. Utiliza Next.js para el desarrollo del frontend, Tailwind CSS para la estilización y una API de streaming para manejar la interacción en tiempo real. La salida del chatbot se presenta en formato Markdown para una visualización dinámica y bien formateada. - Tecnologías utilizadas: Next.js + Tailwind CSS + Gemini Pro API + Markdown - Desplegada en Vercel",
         icon: <BrainCircuit size={60} />, 
     },
+    
     {
-      id: 6,
+      id: 7,
       title: "Reconocedor de gestos - IA",
       image: "/image-6.png",
       urlGithub: "https://github.com/ignaciochiappero/niarocketgame",
@@ -232,7 +243,7 @@ export const dataPortfolio = [
       icon: <Rocket  size={60} />, 
     },
     {
-      id: 7,
+      id: 8,
       title: "Reconocedor de objetos - IA",
       image: "/image-5.png",
       urlGithub: "https://github.com/ignaciochiappero/watchai-nachodev",
