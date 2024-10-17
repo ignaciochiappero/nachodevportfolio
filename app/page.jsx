@@ -192,7 +192,7 @@ export default function Home() {
                   dynamicBullets: true,
                 }}
                 modules={[Pagination]}
-                className="h-[400px] max-sm:h-[330px] md:h-[400px] w-[270px] md:w-[600px]"
+                className="h-[400px] max-sm:h-[360px] md:h-[400px] w-[270px] md:w-[600px]"
               >
                 {dataTechnologies.map(({ id, name, description, imageUrl }) => (
                   <SwiperSlide key={id}>
