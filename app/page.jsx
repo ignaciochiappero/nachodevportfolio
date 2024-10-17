@@ -183,15 +183,16 @@ export default function Home() {
                 breakpoints={{
                   320: {
                     slidesPerView: 1,
-                    spaceBetween: 15,
+                    spaceBetween: 20,
                   },
                 }}
                 freeMode={true}
                 pagination={{
                   clickable: true,
+                  dynamicBullets: true,
                 }}
                 modules={[Pagination]}
-                className="h-[380px] md:h-[300px] w-[270px] md:w-[550px]"
+                className="h-[400px] max-sm:h-[330px] md:h-[400px] w-[270px] md:w-[600px]"
               >
                 {dataTechnologies.map(({ id, name, description, imageUrl }) => (
                   <SwiperSlide key={id}>
