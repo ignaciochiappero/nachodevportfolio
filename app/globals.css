@@ -4,20 +4,26 @@
 
 html, body {
   color: #fff;
-  background: #1f1934;
+  background: linear-gradient(to bottom, 
+               #004040 0%, 
+               #002222 15%, 
+               #001111 40%, 
+               #000811 65%, 
+               #000022 100%);
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 main {
-  background: #393a47;
-  height: 100vh;
-  height: 100dvh;
+  background: rgba(31, 25, 52, 0.7); /* Ajustado para ser más oscuro y semi-transparente */
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   background-color: #f5741c;
-  
 }
 
 @layer utilities {
@@ -26,22 +32,23 @@ main {
   }
 }
 
-/* globals.css */
+/* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
-  width: 8px; /* Ancho de la barra de desplazamiento */
-  height: 8px; /* Altura de la barra de desplazamiento (para scroll horizontal) */
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.5); /* Color del pulgar de la barra de desplazamiento */
-  border-radius: 9999px; /* Bordes redondeados */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; /* Color del rastro de la barra de desplazamiento */
-  border-radius: 9999px; /* Bordes redondeados */
+  background: transparent;
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-corner {
-  background: transparent; /* Color de la esquina de la barra de desplazamiento */
+  background: transparent;
 }
+

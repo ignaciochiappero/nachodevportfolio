@@ -31,30 +31,37 @@ export const itemsNavbar = [
         title: "Home",
         icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
         link: "/",
+        section:"#inicio"
     },
     {
         id: 2,
-        title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
-        link: "/about-me",
-    },
-    {
-        id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-        link: "/services",
-    },
-    {
-        id: 4,
         title: "Target",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
+        section:"#portfolio"
     },
+    {
+        id: 3,
+        title: "User",
+        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+        link: "/about-me",
+        section:"#about"        
+    
+    },
+    {
+        id: 4,
+        title: "Book",
+        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        link: "/services",
+        section:"#services"
+    },
+
     {
         id: 5,
         title: "Home",
         icon: <Wrench size={25} color="#fff" strokeWidth={1} />,
         link: "/technologies",
+        section:"#technologies"
     },
 ];
 
