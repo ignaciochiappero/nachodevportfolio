@@ -30,14 +30,14 @@ export default function Home() {
 
 
       {/* SECCIÓN INICIO */}
-      <div id="inicio">
+      <section id="inicio">
         <TransitionPage />
 
         <div className="flex min-h-[100vh] h-full">
           <CoverParticles />
           <Introduction />
         </div>
-      </div>
+      </section>
 
 
 
@@ -52,7 +52,7 @@ export default function Home() {
 
 
       {/* SECCIÓN PORTFOLIO */}
-      <div id="portfolio">
+      <section id="portfolio">
         <ContainerPage>
           <div className="flex flex-col justify-center h-full mb-20 max-sm:mb-0">
             <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
           </div>
         </ContainerPage>
-      </div>
+      </section>
 
 
 
@@ -81,7 +81,7 @@ export default function Home() {
 
 
       {/* SECCIÓN ABOUT ME */}
-      <div id="about">
+      <section id="about">
         <ContainerPage>
           <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
             Mi{" "}
@@ -93,7 +93,7 @@ export default function Home() {
           <CounterServices />
           <TimeLine />
         </ContainerPage>
-      </div>
+      </section>
 
 
 
@@ -102,7 +102,7 @@ export default function Home() {
 
 
       {/* SECCIÓN SERVICIOS */}
-      <div id="services">
+      <section id="services">
         <div
           className="
                 flex justify-center items-center  px-4
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
 
 
@@ -171,7 +171,7 @@ export default function Home() {
 
 
       {/* SECCIÓN TECNOLOGÍAS */}
-      <div id="technologies">
+      <section id="technologies">
         <div className="flex flex-col justify-center h-lvh mt-10">
           <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
             Algunas tecnologías
@@ -213,7 +213,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 }
