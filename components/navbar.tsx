@@ -1,60 +1,39 @@
 "use client"
 
-import React, { useState } from "react";
-
+import React from "react";
 import Link from "next/link";
-import {usePathname} from "next/navigation";
-
+import { usePathname } from "next/navigation";
 import { itemsNavbar } from "@/data";
-
 import MotionTransition from "./transition-component";
 
-
-
 const Navbar = () => {
+  const router = usePathname();
 
-    const router = usePathname();
-
-
-
-    return (
-
-    //Caja de la navbar
-    <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max 
-    
-    max-sm:bottom-2 sm:bottom-5 md:bottom-10">
-        
-        {/* Navbar visible */}
-        <nav>
-            <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
-
-                {/* Recorre todo el arreglo de los items con ese nombre para ponerlos en la caja */}
-                {itemsNavbar.map((item) => (
-                    <div 
-                      key={item.id}
-                      className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link && 'bg-secondary'}`}
-                    >
-
-                        <Link href={item.section}>
-                        
-                        {item.icon}
-                        
-                        </Link>
-
-
-                    </div>
-                )) }
-
-                
+  return (
+    // Caja de la navbar
+    <MotionTransition
+      position="right"
+      className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max 
+      max-sm:bottom-2 sm:bottom-5 md:bottom-10"
+    >
+      {/* Navbar visible */}
+      <nav>
+        <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 backdrop-blur-sm border border-white">
+          {/* Recorre todo el arreglo de los items con ese nombre para ponerlos en la caja */}
+          {itemsNavbar.map((item) => (
+            <div
+              key={item.id}
+              className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${
+                router === item.link && "bg-secondary"
+              }`}
+            >
+              <Link href={item.section}>{item.icon}</Link>
             </div>
-
-
-
-        </nav>
-
-
+          ))}
+        </div>
+      </nav>
     </MotionTransition>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

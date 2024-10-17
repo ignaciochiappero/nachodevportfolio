@@ -17,11 +17,19 @@ import Image from "next/image";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { dataTechnologies } from "@/data";
+import SlideCard from "@/components/flip-services";
 
 export default function Home() {
   return (
     <main className="bg-gradient-cover bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
-      {/* Sección de Inicio */}
+
+
+
+
+
+
+
+      {/* SECCIÓN INICIO */}
       <div id="inicio">
         <TransitionPage />
 
@@ -31,7 +39,19 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Sección de Portfolio */}
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* SECCIÓN PORTFOLIO */}
       <div id="portfolio">
         <ContainerPage>
           <div className="flex flex-col justify-center h-full mb-20 max-sm:mb-0">
@@ -51,7 +71,16 @@ export default function Home() {
         </ContainerPage>
       </div>
 
-      {/* Sección de About Me */}
+
+
+
+
+
+
+
+
+
+      {/* SECCIÓN ABOUT ME */}
       <div id="about">
         <ContainerPage>
           <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
@@ -66,18 +95,24 @@ export default function Home() {
         </ContainerPage>
       </div>
 
-      {/* Sección de Servicios */}
+
+
+
+
+
+
+      {/* SECCIÓN SERVICIOS */}
       <div id="services">
         <div
           className="
-                flex justify-center items-center h-screen px-4
+                flex justify-center items-center  px-4
                 sm:px-6 md:px-20
-                max-sm:pt-16 
+                max-sm:pt-16 h-screen
             "
         >
           <div
             className="
-                    grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto
+                    grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto 
                 "
           >
             {/* Contenedor del texto descriptivo */}
@@ -118,13 +153,24 @@ export default function Home() {
 
             {/* Slider */}
             <div className="w-full">
-              <SliderServices />
+              {/* <SliderServices /> */}
+              <SlideCard />
             </div>
           </div>
         </div>
       </div>
 
-      {/* Sección de Tecnologías */}
+
+
+
+
+
+
+
+
+
+
+      {/* SECCIÓN TECNOLOGÍAS */}
       <div id="technologies">
         <div className="flex flex-col justify-center h-lvh mt-10">
           <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
@@ -161,7 +207,7 @@ export default function Home() {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className=" text-gray-500  flex justify-center mb-3">
+              <div className="text-gray-500 flex justify-center mb-3 animate-smooth-slide">
                 Deslizá para ver más tecnologías ➤➤➤
               </div>
             </div>
