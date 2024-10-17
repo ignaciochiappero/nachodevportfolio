@@ -21,7 +21,7 @@ import SlideCard from "@/components/flip-services";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-cover bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
+    <main className="bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
 
 
 

@@ -63,8 +63,8 @@ const Navbar = () => {
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
-              className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${
-                activeSection === item.section ? "bg-secondary" : ""
+              className={`px-3 py-2 transition-all duration-300 rounded-full cursor-pointer hover:bg-secondary ${
+                activeSection === item.section ? "bg-secondary scale-105" : ""
               }`}
             >
               <Link 

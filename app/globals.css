@@ -5,7 +5,7 @@
 html, body {
   color: #fff;
   background: linear-gradient(to bottom, 
-               #004040 0%, 
+               #002f3e 0%, 
                #002222 15%, 
                #001111 40%, 
                #000811 65%, 
@@ -74,3 +74,18 @@ main {
    width: 100%; 
 } */
 
+/* ANIMACION NAVBAR*/
+
+/* Añadir este CSS para que funcione con el código anterior */
+
+.bg-secondary {
+  background-color:#f5741c; /* Color de fondo cuando está activo */
+}
+
+.scale-105 {
+  transform: scale(1.05); /* Aumenta levemente el tamaño del ítem activo */
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out; /* Transición suave para todos los cambios */
+}

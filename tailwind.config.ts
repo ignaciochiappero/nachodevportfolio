@@ -25,7 +25,7 @@ const config: Config = {
         "gradient-very-dark": "linear-gradient(to bottom, var(--tw-gradient-stops))",
       },
       gradientColorStops: {
-        cyan: "#004040",
+        cyan: "#0a3f45",
         darkCyan: "#002222",
         darkBlue: "#001111",
         darkerBlue: "#000811",
