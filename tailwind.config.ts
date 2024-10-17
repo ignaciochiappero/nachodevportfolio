@@ -27,7 +27,7 @@ const config: Config = {
       gradientColorStops: {
         cyan: "#0a3f45",
         darkCyan: "#002222",
-        darkBlue: "#001111",
+        darkBlue: "#1c0312",
         darkerBlue: "#000811",
         veryDarkBlue: "#000022",
       },
