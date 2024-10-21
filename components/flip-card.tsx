@@ -18,7 +18,7 @@ import { serviceData } from "@/data";
 // import required modules
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
-export default function SlideCard() {
+export default function FlipCard() {
   return (
     <div>
       <Swiper
@@ -36,7 +36,11 @@ export default function SlideCard() {
 
           <div
             className="
-                    sm:flex-col
+                    flex-col
+                    justify-center
+                    items-center
+                    text-center
+
                     sm:gap-x-0
 
                     flex px-6 py-6 
@@ -46,9 +50,11 @@ export default function SlideCard() {
                     md:h-[400px] 
                     lg:md:h-[330px] 
 
-                    rounded-lg cursor-pointer bg-[rgba(65,47,123,0.15)] gap-x-6  group hover:bg-black/35 transition-all duration-300 hover:border-secondary    border-2 "
+                    rounded-lg cursor-pointer
+                    backdrop-blur-sm
+                    bg-[rgba(65,47,123,0.15)] gap-x-6  group hover:bg-black/35 transition-all duration-300 hover:border-secondary    border-2 "
           >
-            <div className="mb-1 text-4xl text-secondary">{item.icon}</div>
+            <div className="mb-5 text-4xl text-secondary">{item.icon}</div>
             <div>
               <h3 className="mb-4 text-lg">{item.title}</h3>
               <p className="text-sm">{item.description}</p>

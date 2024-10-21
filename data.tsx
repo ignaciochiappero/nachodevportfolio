@@ -135,54 +135,53 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
-
     {
         icon: <Computer />,
         title: "Desarrollo Full Stack",
-        description: "Soluciones web completas con tecnologías front-end y back-end."
+        description: "Ofrezco soluciones web completas utilizando tecnologías tanto front-end como back-end, abarcando todo el proceso de desarrollo, desde la interfaz hasta la gestión del servidor."
     },
     {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        description: "Diseño interfaces web creativas y profesionales, enfocadas en la experiencia del usuario, combinando estética y funcionalidad para crear sitios atractivos y fáciles de navegar."
     },
     {
         icon: <Crop />,
         title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        description: "Construyo una identidad de marca sólida y coherente, que incluye el diseño de logotipos, paletas de colores y otros elementos visuales que refuerzan la presencia de tu negocio en el mercado."
     },
     {
         icon: <Book />,
         title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        description: "Redacto contenido persuasivo y atractivo que captura la atención de tu público objetivo, ayudando a comunicar eficazmente los valores y propuestas de tu marca."
     },
     {
         icon: <Database />,
         title: "Bases de datos",
-        description: "Brindo un servicio integral para guardar y proteger la información de tu sitio y tus usuarios. ",
+        description: "Ofrezco soluciones integrales para el almacenamiento y protección de datos, asegurando la seguridad y accesibilidad de la información de tu sitio web y tus usuarios."
     },
-    
     {
         icon: <MonitorSmartphone />,
         title: "Multiplataforma",
-        description: "Desarrollo tu sitio para múltiples plataformas y dispositivos, según nececedidad ",
+        description: "Desarrollo aplicaciones y sitios web adaptables para múltiples plataformas y dispositivos, garantizando una experiencia óptima sin importar el entorno de uso."
     },
     {
         icon: <HeartHandshake />,
         title: "Consultoría Web",
-        description: "Asesoramiento en tecnologías como NextJS y React para optimizar tus proyectos."
+        description: "Brindo asesoramiento experto en tecnologías modernas como NextJS y React, ayudándote a optimizar el rendimiento y escalabilidad de tus proyectos web."
     },
     {
         icon: <BrainCircuit />,
         title: "IA Básica",
-        description: "Soluciones sencillas de IA para mejorar tus aplicaciones con aprendizaje automático."
+        description: "Implemento soluciones de inteligencia artificial básicas para añadir capacidades de aprendizaje automático a tus aplicaciones, mejorando su funcionalidad y personalización."
     },
     {
         icon: <Footprints />,
         title: "Soporte Post-Lanzamiento",
-        description: "Mantenimiento y soporte continuo para asegurar el buen funcionamiento de tus aplicaciones."
+        description: "Ofrezco mantenimiento y soporte continuo para asegurar que tus aplicaciones funcionen sin problemas, adaptándolas a las necesidades cambiantes después de su lanzamiento."
     }
 ];
+
 export const dataPortfolio = [
     {
       id: 1,
