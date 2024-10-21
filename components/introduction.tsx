@@ -6,18 +6,18 @@ import { TypeAnimation } from "react-type-animation";
 const Introduction = () => {
   return (
     <div className="z-20 w-full ">
-      <div className="md:py-0 md:grid-cols-2 z-20 grid items-center h-full p-6 py-20 ">
+      <div className="md:py-0 sm:grid-cols-2 z-20 grid items-center justify-center h-full p-6 py-20 max-sm:mt-8">
         
         {/* Contenedor de la imagen */}
-        <div className="flex justify-center sm:mt-10 max-sm:mt-10 lg:mt-20">
-          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+        <div className="flex justify-center  max-sm:mt-10 lg:mt-20">
+          <div className="w-full  sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
             <Image 
               src="/home-4.png" 
               priority 
               width={800} 
               height={800}
               alt="Profile pic" 
-              className="w-full h-auto" 
+              className=" w-full h-auto" 
             />
           </div>
         </div>
