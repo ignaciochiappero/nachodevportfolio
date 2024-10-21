@@ -55,7 +55,7 @@ const Introduction = () => {
             {/* Botón de ver proyectos */}
             <Link 
               href="/portfolio"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
             >
               Ver proyectos
             </Link>
@@ -63,7 +63,7 @@ const Introduction = () => {
             {/* Botón de Contacta conmigo */}
             <a 
               href="https://wa.me/5493424094061"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary"
+              className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-md hover:shadow-secondary"
             >
               Contacta conmigo
             </a>
