@@ -259,8 +259,7 @@ export const dataPortfolio = [
     },
   ];
 
-
-export const dataTechnologies = [
+  export const dataTechnologies = [
     {
         id: 1,
         name: "Next.js",

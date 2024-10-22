@@ -11,14 +11,8 @@ import PortfolioBox from "@/components/portfolio-box";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
 
-import SliderServices from "@/components/slider-services";
-
-import Image from "next/image";
-import { Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { dataTechnologies } from "@/data";
 import FlipCard from "@/components/flip-card";
-import SwipeTech from "@/components/swipe-tech";
+import HoverFlipCard from "@/components/flip-card-hover";
 
 export default function Home() {
   return (
@@ -175,9 +169,10 @@ export default function Home() {
 
 
       {/* SECCIÓN TECNOLOGÍAS */}
-      <section id="technologies" className=" ">
+      <section id="technologies" className=" mt-32">
 
-        <SwipeTech/>
+        {/* <SwipeTech/> */}
+        <HoverFlipCard/>
     
       </section>
     </main>
