@@ -108,7 +108,7 @@ export default function Home() {
           "
         >
         
-        <div className="bg-red-50 p-10 absolute left-0 right-0">
+        <div className="bg-white p-10 absolute left-0 right-0">
 
           <div
             className="
