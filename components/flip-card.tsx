@@ -52,7 +52,9 @@ export default function FlipCard() {
 
                     rounded-lg cursor-pointer
                     backdrop-blur-sm
-                    bg-[rgba(65,47,123,0.15)] gap-x-6  group hover:bg-black/35 transition-all duration-300 hover:border-secondary    border-2 "
+                    bg-[rgba(65,47,123,0.15)] gap-x-6  group hover:bg-black/35 transition-all duration-300 
+                    border-gray-400
+                    hover:border-secondary    border-2 hover:text-white "
           >
             <div className="mb-5 text-4xl text-secondary">{item.icon}</div>
             <div>

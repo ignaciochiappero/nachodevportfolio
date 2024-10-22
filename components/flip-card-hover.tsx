@@ -38,15 +38,21 @@ const FlipCard: React.FC<FlipCardProps> = ({
 const FlipCardsGrid: React.FC = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="grid grid-rows-[repeat(24,60px)] md:grid-rows-[repeat(15,50px)] xl:grid-rows-[repeat(10,50px)] grid-cols-[repeat(1,360px)] md:grid-cols-[repeat(2,360px)] xl:grid-cols-[repeat(3,360px)] auto-rows-[minmax(100px,auto)] grid-flow-dense gap-6 justify-center">
+      {/* Cartel animado */}
+      <div className="flex justify-center mb-5">
+        <div className="text-gray-500 mb-3 animate-breathe">
+          Tocá para ver descripción
+        </div>
 
+      </div>
+
+      <div className="grid grid-rows-[repeat(24,60px)] md:grid-rows-[repeat(15,50px)] xl:grid-rows-[repeat(10,50px)] grid-cols-[repeat(1,360px)] md:grid-cols-[repeat(2,360px)] xl:grid-cols-[repeat(3,360px)] auto-rows-[minmax(100px,auto)] grid-flow-dense gap-6 justify-center">
         {/* Tarjeta fija, con el mismo tamaño que las dinámicas */}
         <div className="rounded-[32px] row-span-4 md:row-span-6 max-w-[360px] group">
           <div className="relative rounded-[32px] h-full w-full transition-all duration-500 [transform-style:preserve-3d]">
             <div className=" border-2 border-secondary backdrop-blur-sm rounded-[32px] h-full flex items-center justify-center absolute inset-0 [backface-visibility:hidden]">
               <div className="text-secondary text-center">
                 <h4 className="text-xl font-bold">Mis principales tecnologías</h4>
-                
               </div>
             </div>
             <div className="text-black absolute inset-0 rounded-[32px] bg-gray-crombie h-full flex flex-col p-8 justify-center gap-y-5 [transform:rotateY(180deg)] [backface-visibility:hidden]">
@@ -78,7 +84,6 @@ const FlipCardsGrid: React.FC = () => {
             />
           </div>
         ))}
-
       </div>
     </div>
   );

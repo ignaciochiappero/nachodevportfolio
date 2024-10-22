@@ -99,3 +99,19 @@ main {
 .card__front,
 .card__back { backface-visibility: hidden;}
 .card__back{ transform: rotateY(.5turn);}
+
+
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 2s infinite;
+  display: inline-block; /* Esto asegura que solo el texto sea afectado */
+  justify-content: center;
+}
