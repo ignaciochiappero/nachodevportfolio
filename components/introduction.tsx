@@ -54,7 +54,7 @@ const Introduction = () => {
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 max:sm:mb-20">
             {/* Botón de ver proyectos */}
             <Link 
-              href="/portfolio"
+              href="#portfolio"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
             >
               Ver proyectos
