@@ -20,9 +20,9 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
   return (
     <div
       key={id}
-      className="group p-4 bg-darkBg bg-opacity-60 rounded-lg transform transition duration-500 hover:scale-110 hover:bg-opacity-80 "
+      className="group p-4 bg-darkBg bg-opacity-60 rounded-lg transform transition duration-500 hover:scale-110 hover:bg-opacity-80"
     >
-      <div className="relative w-full h-60 ">
+      <div className="relative w-full h-60">
         <Image
           src={image}
           alt={title}
@@ -31,8 +31,12 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
           className="w-full h-full rounded-lg object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <div className="text-white text-4xl opacity-100 group-hover:opacity-0 transition-opacity duration-300">
-            {icon}
+          <div className="relative">
+            <div className="bg-black bg-opacity-70 rounded-full p-4 flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0">
+              <div className="text-white text-4xl opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+                {icon}
+              </div>
+            </div>
           </div>
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl p-4 backdrop-blur-sm">
