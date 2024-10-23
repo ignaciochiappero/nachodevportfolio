@@ -59,7 +59,7 @@ const Navbar = () => {
       position="right"
       className={`fixed z-40 flex items-center justify-center 
         ${isLargeScreen 
-          ? 'right-5 top-0 h-screen' // Contenedor de altura completa para centrado vertical
+          ? 'right-5 top-0 h-screen'
           : 'w-full bottom-8'
         }`}
     >
@@ -74,20 +74,36 @@ const Navbar = () => {
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
-              className={`p-2 transition-all duration-300 rounded-2xl cursor-pointer
-                hover:bg-secondary hover:scale-110
-                ${activeSection === item.section ? "bg-secondary scale-105" : ""}
-              `}
+              className="relative group"
             >
-              <Link 
-                href={item.section}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleLinkClick(item.section);
-                }}
+              <div
+                className={`p-2 transition-all duration-300 rounded-2xl cursor-pointer
+                  hover:bg-secondary hover:scale-110
+                  ${activeSection === item.section ? "bg-secondary scale-105" : ""}
+                `}
               >
-                {item.icon}
-              </Link>
+                <Link 
+                  href={item.section}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleLinkClick(item.section);
+                  }}
+                >
+                  {item.icon}
+                </Link>
+
+                {/* Tooltip sin pico */}
+                <div className={`absolute whitespace-nowrap px-2 py-1 text-sm
+                  bg-white text-gray-900 rounded-md opacity-0 
+                  transition-all duration-300 ease-in-out pointer-events-none
+                  ${isLargeScreen 
+                    ? 'right-full mr-2 top-1/2 -translate-y-1/2 group-hover:opacity-100 translate-x-3 group-hover:translate-x-0' 
+                    : 'bottom-full left-1/2 -translate-x-1/2 mb-2 translate-y-3 group-hover:translate-y-0 group-hover:opacity-100'
+                  }
+                `}>
+                  {item.section.replace('#', '').charAt(0).toUpperCase() + item.section.slice(2)}
+                </div>
+              </div>
             </div>
           ))}
         </div>
