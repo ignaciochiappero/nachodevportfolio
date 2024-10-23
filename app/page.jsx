@@ -13,6 +13,8 @@ import TimeLine from "@/components/time-line";
 
 import FlipCard from "@/components/flip-card";
 import HoverFlipCard from "@/components/flip-card-hover";
+import Footer from "@/components/footer";
+
 
 export default function Home() {
   return (
@@ -184,6 +186,13 @@ export default function Home() {
         <HoverFlipCard/>
     
       </section>
+
+
+      {/* SECCIÓN FOOTER */}
+
+      <Footer />
     </main>
+
+
   );
 }
