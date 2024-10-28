@@ -11,6 +11,7 @@ import TimeLine from "@/components/time-line";
 import FlipCard from "@/components/flip-card";
 import HoverFlipCard from "@/components/flip-card-hover";
 import Footer from "@/components/footer";
+// import App from "@/components/experimentals/App";
 
 export default function Home() {
   return (
@@ -27,6 +28,21 @@ export default function Home() {
             <Introduction />
           </div>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       {/* SECCIÓN PORTFOLIO */}
@@ -49,15 +65,30 @@ export default function Home() {
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+
       {/* SECCIÓN ABOUT ME */}
       <section id="about">
         <ContainerPage>
-          <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-            Mi{" "}
-            <span className="font-bold text-secondary">
-              trayectoria profesional
-            </span>
-          </h1>
+
+          <div className="flex justify-center">
+
+            <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
+              Mi{" "}
+              <span className="font-bold text-secondary">
+                trayectoria profesional
+              </span>
+            </h1>
+          </div>
+          
+
 
           <CounterServices />
           <TimeLine />

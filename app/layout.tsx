@@ -11,6 +11,7 @@ import 'swiper/css/scrollbar';
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
+
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 //Title and description 

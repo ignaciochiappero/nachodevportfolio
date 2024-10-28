@@ -115,3 +115,46 @@ main {
   display: inline-block; /* Esto asegura que solo el texto sea afectado */
   justify-content: center;
 }
+
+
+
+/*EXPERIMENTALS*/
+@keyframes right2left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+@keyframes right2left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes right2left2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-[right2left_20s_linear_infinite] {
+  animation: right2left 20s linear infinite;
+}
+
+.animate-[right2left2_20s_linear_infinite] {
+  animation: right2left2 20s linear infinite;
+}
