@@ -1,5 +1,5 @@
-import React from 'react';
 import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -25,24 +25,24 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="hover:text-white transition-colors duration-200">
+                <Link href="#services" className="hover:text-white transition-colors duration-200">
                   Servicios
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-white transition-colors duration-200">
+                <Link href="#portfolio" className="hover:text-white transition-colors duration-200">
                   Proyectos
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="hover:text-white transition-colors duration-200">
+                <Link href="#about" className="hover:text-white transition-colors duration-200">
                   Sobre Mí
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://wa.me/+543424094061" className="hover:text-white transition-colors duration-200">
+                <Link href="https://wa.me/+543424094061" className="hover:text-white transition-colors duration-200">
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -52,15 +52,15 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Contacto</h4>
             <p className="text-sm">Santa Fe, Argentina</p>
             <div className="flex space-x-4">
-              <a href="https://github.com/ignaciochiappero" className="hover:text-white transition-colors duration-200">
+              <Link href="https://github.com/ignaciochiappero" className="hover:text-white transition-colors duration-200">
                 <Github className="w-5 h-5" />
-              </a>
-              <a href="https://www.linkedin.com/in/ignacio-chiappero-129360228/" className="hover:text-white transition-colors duration-200">
+              </Link>
+              <Link href="https://www.linkedin.com/in/ignacio-chiappero-129360228/" className="hover:text-white transition-colors duration-200">
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="https://wa.me/+543424094061" className="hover:text-white transition-colors duration-200">
+              </Link>
+              <Link href="https://wa.me/+543424094061" className="hover:text-white transition-colors duration-200">
                 <MessageCircle className="w-5 h-5" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
