@@ -15,9 +15,11 @@
     "@motionone/utils": "^10.18.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
+    "clsx": "^2.1.1",
     "framer-motion": "^11.5.5",
     "lucide-react": "^0.395.0",
-    "next": "14.2.4",
+    "motion": "^12.1.0",
+    "next": "^14.2.23",
     "popmotion": "^11.0.5",
     "react": "^18",
     "react-countup": "^6.5.3",
@@ -26,6 +28,7 @@
     "react-router-dom": "^6.27.0",
     "react-type-animation": "^3.2.0",
     "swiper": "^11.1.4",
+    "tailwind-merge": "^3.0.1",
     "tailwind-scrollbar": "^3.1.0"
   },
   "devDependencies": {

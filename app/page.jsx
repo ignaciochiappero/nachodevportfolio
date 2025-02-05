@@ -11,57 +11,21 @@ import TimeLine from "@/components/time-line";
 import FlipCard from "@/components/flip-card";
 import HoverFlipCard from "@/components/flip-card-hover";
 import Footer from "@/components/footer";
+import { CardBody, CardContainer, CardItem } from "@/components/3d-card";
+import Image from "next/image";
+import Link from "next/link";
 // import App from "@/components/experimentals/App";
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
-
-
       {/* SECCIÓN INICIO */}
       <section id="inicio">
-          
-          <TransitionPage />
+        <TransitionPage />
 
-          <div className="flex min-h-[100vh] h-full">
-            <CoverParticles />
-            <Introduction />
-          </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* SECCIÓN PORTFOLIO */}
-      <section id="portfolio">
-        <div className="relative z-20 bg-black py-10">
-          <div className="flex flex-col justify-center h-full mb-20 max-sm:mb-0">
-            <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
-              Mis últimos{" "}
-              <span className="font-bold text-secondary">
-                trabajos realizados
-              </span>
-            </h1>
-
-            <div className="relative z-10 grid max-w-[1200px] gap-6 mx-auto mt-4 sm:grid-cols-2 min-md:grid-cols-3 lg:grid-cols-3">
-              {dataPortfolio.map((data) => (
-                <PortfolioBox key={data.id} data={data} />
-              ))}
-            </div>
-          </div>
+        <div className="flex min-h-[100vh] h-full">
+          <CoverParticles />
+          <Introduction />
         </div>
       </section>
 
@@ -73,13 +37,29 @@ export default function Home() {
 
 
 
+      {/* SECCIÓN PORTFOLIO */}
+      <section id="portfolio" className="py-8 bg-gray-100 dark:bg-gray-900">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-6">Mis trabajos</h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 transition-all gap-6">
+          {dataPortfolio.map((project) => (
+            <PortfolioBox key={project.id} data={project} />
+          ))}
+        </div>
+      </div>
+    </section>
+  
+
+
+
+
+
+
 
       {/* SECCIÓN ABOUT ME */}
       <section id="about">
         <ContainerPage>
-
           <div className="flex justify-center">
-
             <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
               Mi{" "}
               <span className="font-bold text-secondary">
@@ -87,8 +67,6 @@ export default function Home() {
               </span>
             </h1>
           </div>
-          
-
 
           <CounterServices />
           <TimeLine />
@@ -126,11 +104,12 @@ export default function Home() {
                     Mis <span className="text-secondary">servicios.</span>
                   </h1>
                   <p className="mb-3 text-xl text-gray-600">
-                    Ofrezco servicios de desarrollo web y aplicaciones, frontend y
-                    backend, con un enfoque en estética y funcionalidad. Utilizo las
-                    últimas tecnologías y también ofrezco diseño gráfico y contenido,
-                    creando interfaces atractivas e intuitivas que reflejan la identidad
-                    de mis clientes y conectan integralmente con su público.
+                    Ofrezco servicios de desarrollo web y aplicaciones, frontend
+                    y backend, con un enfoque en estética y funcionalidad.
+                    Utilizo las últimas tecnologías y también ofrezco diseño
+                    gráfico y contenido, creando interfaces atractivas e
+                    intuitivas que reflejan la identidad de mis clientes y
+                    conectan integralmente con su público.
                   </p>
 
                   <a href="https://wa.me/5493424094061">

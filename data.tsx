@@ -1,3 +1,5 @@
+//data.tsx
+
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Instagram, Crop, Pencil, Computer, Book, Wrench, Facebook, Github, Database, MonitorSmartphone, HeartHandshake, BrainCircuit, Footprints, Camera, Rocket, ShoppingCart, Gem } from "lucide-react";
 import { BsCheckCircle, BsWhatsapp } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
