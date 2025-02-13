@@ -18,6 +18,7 @@ import { useEffect } from "react";
 
 import { LampComponent } from "../components/ui/lamp";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+import Introduction from "@/components/introduction";
 
 export default function Home() {
 
@@ -32,7 +33,7 @@ export default function Home() {
   }, []);
   
   return (
-    <main className="bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
+    <main className="bg-gradient-to-b from-stone-900 to-darkBlue bg-darkBg/60">
       
       
       
@@ -42,9 +43,10 @@ export default function Home() {
 
         <div className="flex min-h-[100vh] h-full">
           {/* <CoverParticles /> */}
-          <BackgroundGradientAnimation
+          {/* <BackgroundGradientAnimation  />*/}
+          <Introduction/>
           
-          />
+         
           
         </div>
       </section>
@@ -58,7 +60,7 @@ export default function Home() {
 
 
       {/* SECCIÓN PORTFOLIO */}
-      <section id="portfolio" className="py-8 bg-gray-900 ">
+      <section id="portfolio" className="py-8 bg-stone-900 ">
       <div className="container mx-auto px-4">
         <div 
           className="text-3xl font-bold text-center "
