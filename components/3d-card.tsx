@@ -107,6 +107,7 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMouseEntered])
 
   const handleAnimations = () => {

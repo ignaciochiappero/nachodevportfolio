@@ -4,6 +4,8 @@ import { Urbanist } from "next/font/google";
 
 import "./globals.css";
 
+
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -48,6 +50,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
       <body className={urbanist.className}> 

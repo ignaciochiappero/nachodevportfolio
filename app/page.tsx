@@ -11,14 +11,26 @@ import TimeLine from "@/components/time-line";
 import FlipCard from "@/components/flip-card";
 import HoverFlipCard from "@/components/flip-card-hover";
 import Footer from "@/components/footer";
-import { CardBody, CardContainer, CardItem } from "@/components/3d-card";
-import Image from "next/image";
-import Link from "next/link";
-// import App from "@/components/experimentals/App";
+
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duración de las animaciones
+      offset: 100,
+      once: true, // Las animaciones solo se ejecutan una vez
+    });
+  }, []);
+  
   return (
     <main className="bg-gradient-to-b from-cyan to-darkBlue bg-darkBg/60">
+      
+      
+      
       {/* SECCIÓN INICIO */}
       <section id="inicio">
         <TransitionPage />
@@ -38,12 +50,32 @@ export default function Home() {
 
 
       {/* SECCIÓN PORTFOLIO */}
-      <section id="portfolio" className="py-8 bg-gray-100 dark:bg-gray-900">
+      <section id="portfolio" className="py-8 bg-gray-900 ">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-6">Mis trabajos</h2>
-        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 transition-all gap-6">
-          {dataPortfolio.map((project) => (
-            <PortfolioBox key={project.id} data={project} />
+        <h2 
+          className="text-3xl font-bold text-center xl:mb-48"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+        >
+          Mis trabajos
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 max-w-6xl mx-auto">
+          {dataPortfolio.map((project, index) => (
+            <div 
+              key={project.id} 
+              className={`transform transition-all duration-300 ${
+                index % 2 === 0 ? 'xl:-translate-y-40 xl:mb-80' : 'xl:translate-y-44'
+              }`}
+            >
+              {/* Contenedor interno para la animación */}
+              <div
+                data-aos="fade-up"
+                data-aos-delay={index * 100} // Retraso más corto entre elementos
+                data-aos-anchor-placement="center-center"
+              >
+                <PortfolioBox data={project} index={index} />
+              </div>
+            </div>
           ))}
         </div>
       </div>
