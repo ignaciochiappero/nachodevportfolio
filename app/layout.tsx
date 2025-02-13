@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { Urbanist } from "next/font/google";
+import localFont from "next/font/local";
 
 import "./globals.css";
 
@@ -15,6 +16,37 @@ import Header from "@/components/header";
 
 
 const urbanist = Urbanist({ subsets: ["latin"] });
+
+// paquete Blender
+const blenderBold = localFont({
+  src: "./fonts/BlenderPro-Bold.woff",
+  variable: "--blender-bold",
+  weight: "100 900",
+});
+
+const blenderNormal = localFont({
+  src: "./fonts/BlenderPro-Book.woff",
+  variable: "--blender-normal",
+  weight: "100 900",
+});
+
+const blenderMayus = localFont({
+  src: "./fonts/BlenderPro-Heavy.woff",
+  variable: "--blender-mayus",
+  weight: "100 900",
+});
+
+const blenderMedium = localFont({
+  src: "./fonts/BlenderPro-Medium.woff",
+  variable: "--blender-medium",
+  weight: "100 900",
+});
+
+const blenderThin = localFont({
+  src: "./fonts/BlenderPro-Thin.woff",
+  variable: "--blender-thin",
+  weight: "100 900",
+});
 
 //Title and description 
 export const metadata: Metadata = {
@@ -54,10 +86,14 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={urbanist.className}> 
-        <Navbar />
-        <Header />
-        {children}
+      <body className={`${blenderMayus.variable} ${blenderMedium.variable} ${blenderNormal.variable} ${blenderThin.variable} ${blenderBold.variable} `}> 
+        
+        <div className="font-[family-name:var(--blender-medium)]">
+          <Navbar />
+          <Header />
+          {children}
+
+        </div>
       </body>
     </html>
   );

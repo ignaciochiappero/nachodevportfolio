@@ -1,7 +1,7 @@
 "use client";
 
-import CoverParticles from "@/components/cover-particles";
-import Introduction from "@/components/introduction";
+//import CoverParticles from "@/components/cover-particles";
+//import Introduction from "@/components/introduction";
 import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container-page";
 import { dataPortfolio } from "@/data";
@@ -16,7 +16,12 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from "react";
 
+import { LampComponent } from "../components/ui/lamp";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+
 export default function Home() {
+
+  const words = `Algunos de mis trabajos`;
 
   useEffect(() => {
     AOS.init({
@@ -36,8 +41,11 @@ export default function Home() {
         <TransitionPage />
 
         <div className="flex min-h-[100vh] h-full">
-          <CoverParticles />
-          <Introduction />
+          {/* <CoverParticles /> */}
+          <BackgroundGradientAnimation
+          
+          />
+          
         </div>
       </section>
 
@@ -52,13 +60,15 @@ export default function Home() {
       {/* SECCIÓN PORTFOLIO */}
       <section id="portfolio" className="py-8 bg-gray-900 ">
       <div className="container mx-auto px-4">
-        <h2 
-          className="text-3xl font-bold text-center xl:mb-48"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-center"
+        <div 
+          className="text-3xl font-bold text-center "
+          
         >
-          Mis trabajos
-        </h2>
+  
+
+           <LampComponent/>
+          
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 max-w-6xl mx-auto">
           {dataPortfolio.map((project, index) => (
             <div 
