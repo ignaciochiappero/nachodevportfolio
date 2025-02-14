@@ -1,6 +1,13 @@
 import type { Config } from "tailwindcss";
 import scrollbar from "tailwind-scrollbar";
 
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +15,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
       colors: {
         secondary: "#f5741c",
@@ -18,12 +26,14 @@ const config: Config = {
         darkerBlue: "#000811",
         veryDarkBlue: "#000022",
       },
+
       backgroundImage: {
         "gradient-cover":
           "linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58% )",
         "gradient-cyan-darkblue": "linear-gradient(to bottom, var(--tw-gradient-stops))",
         "gradient-very-dark": "linear-gradient(to bottom, var(--tw-gradient-stops))",
       },
+
       gradientColorStops: {
         cyan: "#0a3f45",
         darkCyan: "#002222",
@@ -31,12 +41,15 @@ const config: Config = {
         darkerBlue: "#000811",
         veryDarkBlue: "#000022",
       },
+
       // Keyframes para mover el elemento a la derecha y luego regresar al mismo ritmo
       keyframes: {
+
         smoothSlide: {
           '0%, 100%': { transform: 'translateX(0)' }, // Posición inicial y final en 0
           '50%': { transform: 'translateX(10px)' },   // Se desplaza hacia la derecha
         },
+
         moveHorizontal: {
           "0%": {
             transform: "translateX(-50%) translateY(-10%)",
@@ -48,6 +61,7 @@ const config: Config = {
             transform: "translateX(-50%) translateY(-10%)",
           },
         },
+
         moveInCircle: {
           "0%": {
             transform: "rotate(0deg)",
@@ -59,6 +73,7 @@ const config: Config = {
             transform: "rotate(360deg)",
           },
         },
+
         moveVertical: {
           "0%": {
             transform: "translateY(-50%)",
@@ -71,6 +86,7 @@ const config: Config = {
           },
         },
       },
+
       animation: {
         'smooth-slide': 'smoothSlide 2s ease-in-out infinite',
          // 2 segundos para ida y vuelta
@@ -83,7 +99,19 @@ const config: Config = {
       },
     },
   },
-  plugins: [scrollbar],
+  plugins: [scrollbar, addVariablesForColors],  
 };
+
+//para el scroll animation
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+ 
+  addBase({
+    ":root": newVars,
+  });
+}
 
 export default config;

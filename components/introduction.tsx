@@ -7,9 +7,9 @@ import Photo from "./Photo";
 const Introduction = () => {
   return (
     <div className="z-20 w-full">
-      <div className="md:py-0 z-20 flex flex-col md:flex-row items-center justify-center h-full p-6 py-20 max-sm:mt-8">
+      <div className="md:py-0 z-20 flex flex-col md:flex-row items-center justify-center h-full p-6 py-20 ">
         {/* Contenedor de la imagen */}
-        <div className="xl:mt-10 md:w-1/2 xl:ml-16 flex justify-center items-center">
+        <div className="xl:mt-28 md:w-1/2 xl:ml-16 flex justify-center items-center mb-24">
           <Photo />
         </div>
 
@@ -39,7 +39,7 @@ const Introduction = () => {
 
           {/* Descripción del portfolio */}
           <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-center md:text-left">
-            Desarrollador Web Full Stack, Especialista en Inteligencia Artificial y Diseñador Gráfico.
+            Desarrollador Web Full Stack, apasionado por la Inteligencia Artificial y Diseñador Gráfico.
           </p>
 
           {/* Botones */}

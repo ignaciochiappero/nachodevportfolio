@@ -21,7 +21,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] relative"
+          className="w-[280px] h-[280px] xl:w-[498px] xl:h-[498px] relative"
         >
           <Image
             src="/Perfil-color.png"

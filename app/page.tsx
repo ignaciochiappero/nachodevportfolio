@@ -19,6 +19,7 @@ import { useEffect } from "react";
 import { LampComponent } from "../components/ui/lamp";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import Introduction from "@/components/introduction";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function Home() {
 
@@ -61,17 +62,18 @@ export default function Home() {
 
       {/* SECCIÓN PORTFOLIO */}
       <section id="portfolio" className="py-8 bg-stone-900 ">
-      <div className="container mx-auto px-4">
+
+      <TracingBeam>
+      <div className="container mx-auto ">
         <div 
-          className="text-3xl font-bold text-center "
+          className="text-3xl font-bold text-center  "
           
         >
   
-
            <LampComponent/>
           
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 max-w-6xl mx-auto max-sm:-mt-48">
           {dataPortfolio.map((project, index) => (
             <div 
               key={project.id} 
@@ -91,6 +93,8 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      </TracingBeam>
     </section>
   
 
