@@ -50,11 +50,11 @@ const blenderThin = localFont({
 
 //Title and description 
 export const metadata: Metadata = {
-  title: "Nacho Dev",
-  description: "Soy Nacho Chiappero, desarrollador web Full Stack, desarrollador de AI y diseñador gráfico. Explora mi portfolio para ver mis proyectos y contactarme.",
+  title: "Nacho Dev | Nacho Chiappero",
+  description: "Soy Nacho Chiappero, desarrollador web Full Stack y diseñador gráfico. Explorá mi portfolio para ver mis proyectos y contactarme.",
   openGraph: {
     title: "Nacho Dev",
-    description: "Soy Nacho Chiappero, desarrollador web Full Stack, desarrollador de AI  y diseñador gráfico. Explora mi portfolio para ver mis proyectos y contactarme.",
+    description: "Soy Nacho Chiappero, desarrollador web Full Stack y diseñador gráfico. Explorá mi portfolio para ver mis proyectos y contactarme.",
     images: [
       {
         url: "/Logo2.png",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Nacho Dev",
-    description: "Soy Nacho Chiappero, desarrollador web Full Stack, desarrollador de AI  y diseñador gráfico. Explora mi portfolio para ver mis proyectos y contactarme.",
+    description: "Soy Nacho Chiappero, desarrollador web Full Stack y diseñador gráfico. Explorá mi portfolio para ver mis proyectos y contactarme.",
     images: ["/Logo2.png"],
     creator: "@nachodev"
   },
